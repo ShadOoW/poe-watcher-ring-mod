@@ -1,0 +1,98 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.SpecialGenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Bomb_Flash_Bomb_Ability",
+      "ID": "6906afe1-ab12-4f2c-93f0-2fa9c26f6f43",
+      "Components": [
+        {
+          "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "DisplayName": 431166448,
+          "Description": 431166449,
+          "DescriptionTactical": -1,
+          "UpgradeDescriptions": [],
+          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "Vocalization": "NoVocalization",
+          "Icon": "gui/icons/abilities/flash-bomb-ability.png",
+          "UsageType": "None",
+          "UsageValue": 5,
+          "AbilityClassID": "00000000-0000-0000-0000-000000000000",
+          "AbilityLevel": 0,
+          "IsPassive": "false",
+          "StackingRuleOverride": "Default",
+          "TriggerOnHit": "false",
+          "IsModal": "false",
+          "ModalGroupID": "00000000-0000-0000-0000-000000000000",
+          "IsCombatOnly": "false",
+          "IsNonCombatOnly": "false",
+          "HideFromUI": "false",
+          "ShowStatusEffects": "false",
+          "HideFromCombatLog": "false",
+          "UniqueSet": "None",
+          "NoiseLevelID": "cfd4a8e0-3941-40cb-b05d-604ec49279d5",
+          "DurationOverride": 0,
+          "OverrideEmpower": "Default",
+          "ClearsOnMovement": "false",
+          "CannotActivateWhileInStealth": "false",
+          "CannotActivateWhileInvisible": "false",
+          "ActivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "ApplicationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "DeactivationPrerequisites": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "PowerLevelScaling": {
+            "ScalingType": "Default",
+            "BaseLevel": 0,
+            "LevelIncrement": 0,
+            "MaxLevel": 0,
+            "DamageAdjustment": 0,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
+          },
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "c4d3d7c8-1e37-4f75-bfea-0670e6785959",
+            "260d4374-38d0-481d-a618-77448923bb75",
+            "0d23daae-f290-40e0-9aa0-7521c426986c",
+            "820e27a0-1c86-434b-b3e3-0f627870e898",
+            "0533368a-2d89-439f-a469-f8c8f800f9e6"
+          ],
+          "RandomizeStatusEffect": "false",
+          "VisualEffects": [],
+          "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
+          "AttackID": "0ff329c4-ab12-4ee4-aa59-63b92de98dd8",
+          "AITargetingConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            },
+            "Scripts": []
+          },
+          "AudioEventListID": "3bd8ecb4-2fe8-41d7-bfff-cfbbe0de1990",
+          "GrantedViaScript": "false"
+        },
+        {
+          "$type": "Game.GameData.SpecialGenericAbilityComponent, Assembly-CSharp",
+          "SpecialGenericAbilityType": "ImmediateReloadAbility"
+        }
+      ]
+    }
+  ]
+}

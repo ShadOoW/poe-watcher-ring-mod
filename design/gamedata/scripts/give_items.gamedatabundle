@@ -1,0 +1,22 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.PromotionalItemCollectionGameData, Assembly-CSharp",
+      "DebugName": "Give_Item_Ring_U_Great_Fairies",
+      "ID": "3b11c2f8-ee41-4ede-1111-22d812426fe1",
+      "Components": [
+        {
+          "$type": "Game.GameData.PromotionalItemCollectionComponent, Assembly-CSharp",
+          "PromotionalItemCollections": {
+            "PromotionalItemCollection": [
+              {
+                "ItemReferenceID": "ec283306-ab12-462a-cc39-fc04148fc1c9",
+                "Quantity": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

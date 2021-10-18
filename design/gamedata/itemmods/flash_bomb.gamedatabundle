@@ -1,0 +1,29 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Flash_Bomb_ItemMod",
+      "ID": "9bfcfb3b-ab12-4437-9999-f9d4ecf75031",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166448,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "6906afe1-ab12-4f2c-93f0-2fa9c26f6f43"
+          ]
+        }
+      ]
+    }
+  ]
+}

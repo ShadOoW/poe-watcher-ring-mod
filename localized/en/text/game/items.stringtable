@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\items</Name>
+  <Entries>
+    <Entry>
+      <ID>411166440</ID>
+      <DefaultText>The Watcher of Caed Nua's Ring</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>411166441</ID>
+      <DefaultText>As you stare at this familiar ring, your can see the soul of the person it belonged to, you are flooded with memories of travelling the Dyrwood, defeating Thaos and discovering the truth of the Gods... these are memories from your own soul, a window to who you were before.
+
+Keeping the ring on let you access memories that otherwise would be lost to Eothas, these memories are fleeting, an ace in your pocket that your enemies will not expect.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

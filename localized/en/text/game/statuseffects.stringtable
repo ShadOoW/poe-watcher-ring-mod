@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\statuseffects</Name>
+  <Entries>
+    <Entry>
+      <ID>441166440</ID>
+      <DefaultText>15% of Weapon/Spell damage life-steal</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166441</ID>
+      <DefaultText>Might, Constitution, Resolve, Perception, Dexterity and Intellect Inspirations applied to the wielder are increased by 1 Tier.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166442</ID>
+      <DefaultText></DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166443</ID>
+      <DefaultText>{0:value:percent} of Spell Damage Dealt against afflicted targets is returned as Healing </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166444</ID>
+      <DefaultText>Terrified</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166445</ID>
+      <DefaultText>{0:value:percent} of Damage Dealt is returned as Healing </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166446</ID>
+      <DefaultText>Destroy if under 25% Health.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166447</ID>
+      <DefaultText>Gain Brilliant on winning the dual.</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

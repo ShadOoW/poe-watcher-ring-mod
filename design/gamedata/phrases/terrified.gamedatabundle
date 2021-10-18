@@ -1,0 +1,26 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.PhraseGameData, Assembly-CSharp",
+      "DebugName": "The_Long_Nights_Drink",
+      "ID": "fb48d1ee-ab12-4e97-8acf-e75fa660e792",
+      "Components": [
+        {
+          "$type": "Game.GameData.PhraseComponent, Assembly-CSharp",
+          "Icon": "gui/icons/abilities/chanter/long_nights_drink.png",
+          "DisplayName": 1842,
+          "AbilityClassID": "00000000-0000-0000-0000-000000000000",
+          "Description": 2157,
+          "Vocalization": "ChanterChant2",
+          "Level": 4,
+          "DefendedBy": "None",
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "HostileAttackID": "e2d4560e-a6a1-4226-a3fd-6d306240791a",
+          "OnChanterVisualEffectPath": "prefabs/effects/abilities/cast/fx_cast_chanter_root.prefab",
+          "ChanterVisualEffectAttach": "Root"
+        }
+      ]
+    }
+  ]
+}

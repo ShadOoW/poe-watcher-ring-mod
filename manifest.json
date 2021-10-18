@@ -1,0 +1,14 @@
+{
+  "Title": {
+    "en": "Great Fairies Ring"
+  },
+  "Description": {
+    "en": "Grant Great Fairies Ring"
+  },
+  "Author": "ShadOoW",
+  "ModVersion": "1.0",
+  "SupportedGameVersion": {
+    "Min": "5.0.0",
+    "Max": "5.0.0"
+  }
+}

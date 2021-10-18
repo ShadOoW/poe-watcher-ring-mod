@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\itemmods</Name>
+  <Entries>
+    <Entry>
+      <ID>421166440</ID>
+      <DefaultText>Blood Rite</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166441</ID>
+      <DefaultText>Counterspell</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166442</ID>
+      <DefaultText>Santoryu</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166443</ID>
+      <DefaultText>Unholy Spirit</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166446</ID>
+      <DefaultText>Master of all</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166447</ID>
+      <DefaultText>Armed to the teeth</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166448</ID>
+      <DefaultText>Dirty Tricks</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>421166449</ID>
+      <DefaultText>Crowd Control</DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>

@@ -1,0 +1,1 @@
+saber-ring-item = 0 0 42 42

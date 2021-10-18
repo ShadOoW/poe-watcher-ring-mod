@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Raw_Electricity",
+      "ID": "9c7d6f36-ab12-4b08-a528-74789abe0599",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 451166440,
+          "AbilitiesDisplayString": 451166440,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

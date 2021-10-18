@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Status_Effect_Keyword_Disoriented_Custom",
+      "ID": "ceab5546-ab12-4f6c-b8b4-191dae058fb9",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 305150435,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

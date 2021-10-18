@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>game\abilities</Name>
+  <Entries>
+    <Entry>
+      <ID>431166440</ID>
+      <DefaultText>Blood Sacrifice</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166441</ID>
+      <DefaultText>At the cost of health, returns class resources.
+
+
+Monk: Recover 3 Mortification
+Barbarian: Recover 3 Rage
+Monk/Barbarian/Paladin/Fighter/Ranger/Rogue: Recover 3 resources.
+Wizard/Priest/Druid: Recover 1 or 2 spells (depends on spell level recovered)
+Chanter: Recover 4 Phrases
+Cipher: Recover 60 Focus
+[Works better on MultiClass characters.]</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166442</ID>
+      <DefaultText>Lotus Orb</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166443</ID>
+      <DefaultText>What is best in life?
+To crush your enemies and see them die with their own spells and bullets.
+
+For a short duration, conjure a shield that returns all ranged attacks that single target you and miss you. The sheer awesomeness of the shield gives you the Resolute inspiration for the duration.
+
+[Duration will extend if reused before the previous instance has expired.]
+      </DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166444</ID>
+      <DefaultText>Mask of Madness</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166445</ID>
+      <DefaultText>
+
+Improve action speed by 33%, Gain 15% Weapon/Spell life drain on targets with an affliction and disrupt magic use on Hit.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166446</ID>
+      <DefaultText>Sleight Of Fist</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166447</ID>
+      <DefaultText>Teleport to the target location and on hit:
+- Deals best of shock/pierce damage, the damage will be repeated 2 more times in a 3 seconds interval on the target.
+- Create 2 long traveling shock waves, in front and behind you, enemies touched by it will be pushed and terrified for a short duration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166448</ID>
+      <DefaultText>Flash Bomb</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166449</ID>
+      <DefaultText>Even with your reputation as a legendary weapons master, you didn't get to this level without your fair use of cheap tricks.
+
+Throws a flash bomb at your enemies, blinding them and teleporting you to the location of the detonation, the flash is so strong that it makes you invisible to all enemies for a short duration.
+
+[Perception Affliction will upgrade to blind on critc and downgrade to distracted on graze]
+[Perception Affliction will not affect the user even if caught in the area of effect]
+[Perception Affliction and Invisibility duration is only scaled by your Intellect Attribute]
+[Perception Affliction and Invisibility duration is not scaled by user's level or user's explosive skill level]
+      </DefaultText>
+      <FemaleText />
+    </Entry>
+  </Entries>
+</StringTableFile>
