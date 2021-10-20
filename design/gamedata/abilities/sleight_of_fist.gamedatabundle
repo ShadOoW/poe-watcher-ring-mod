@@ -7,18 +7,22 @@
       "Components": [
         {
           "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "cb6304a6-ab12-4662-1111-27b974423b7f",
+            "cb6304a6-ab12-4662-2222-27b974423b7f",
+            "cb6304a6-ab12-4662-0000-27b974423b7f"
+          ],
           "DisplayName": 431166446,
           "Description": 431166447,
           "DescriptionTactical": -1,
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "AbilityCast",
-          "Icon": "gui/icons/abilities/sleight-of-fist-ability.png",
+          "Icon": "gui/icons/abilities/sleight-of-fist.png",
           "UsageType": "None",
           "UsageValue": 2,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
-          "AbilityLevel": 5,
+          "AbilityLevel": 1,
           "IsPassive": "false",
           "StackingRuleOverride": "Default",
           "TriggerOnHit": "false",
@@ -69,6 +73,7 @@
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [
             "c9b3809d-ab12-4133-2222-40f340e03c95"
+
           ],
           "RandomizeStatusEffect": "false",
           "VisualEffects": [],

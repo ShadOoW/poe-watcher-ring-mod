@@ -15,7 +15,7 @@
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "BarbarianShout",
-          "Icon": "gui/icons/abilities/madness-ability.png",
+          "Icon": "gui/icons/abilities/madness.png",
           "UsageType": "PerEncounter",
           "UsageValue": 2,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",

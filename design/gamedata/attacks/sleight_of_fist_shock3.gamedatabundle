@@ -2,14 +2,12 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack",
+      "DebugName": "Shock_Attack3",
       "ID": "7899efcc-ab12-4b59-2222-06b334a0ec3e",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [
-            "9c7d6f36-ab12-4b08-a528-74789abe0599"
-          ],
+          "KeywordsIDs": [],
           "AttackDistance": 20,
           "MinAttackDistance": 0,
           "AttackVariationID": "f334b5cf-d232-4da3-9313-71a9501104f6",
@@ -30,7 +28,7 @@
           "HostilityOverride": "Default",
           "PushDistance": 0,
           "FaceTarget": "true",
-          "AccuracyBonus": 100,
+          "AccuracyBonus": 20,
           "PenetrationRating": 9,
           "DamageData": {
             "DamageType": "Raw",

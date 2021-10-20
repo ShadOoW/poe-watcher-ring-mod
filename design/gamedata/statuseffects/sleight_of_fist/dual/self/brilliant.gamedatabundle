@@ -1,16 +1,16 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Reward_SE_AttackOnEvent",
-      "ID": "f5f5f16d-ab12-46f5-9ee0-45f2ca527106",
+      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
+      "DebugName": "Brilliant_Inspiration_Custom",
+      "ID": "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "AttackEnemyOnEvent",
+          "StatusEffectType": "None",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "None",
+          "UseStatusEffectValueAs": "Child",
           "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
@@ -19,12 +19,15 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [],
-          "DurationType": "Infinite",
-          "Duration": 0,
+          "KeywordsIDs": [
+            "ae8eaf9c-6fdc-4c63-9aac-8ee874082c0f",
+            "10599782-9812-451d-8e24-693c06bb4062"
+          ],
+          "DurationType": "UseDurationTime",
+          "Duration": 12,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-          "ApplicationType": "ApplyAtEnd",
+          "ApplicationBehavior": "AddDurationIfAlreadyApplied",
+          "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
           "InclusionConditions": {
@@ -33,26 +36,8 @@
           },
           "ApplicationPrerequisites": {
             "Conditional": {
-              "Operator": 0,
-              "Components": [
-                {
-                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                  "Data": {
-                    "FullName": "Boolean IsHealthPercentage(Guid, Operator, Single)",
-                    "Parameters": [
-                      "1a26e100-0000-0000-0000-000000000000",
-                      "LessThanOrEqualTo",
-                      "25"
-                    ],
-                    "Flags": "",
-                    "UnrealCall": "",
-                    "FunctionHash": 2080256364,
-                    "ParameterHash": 152681931
-                  },
-                  "Not": false,
-                  "Operator": 0
-                }
-              ]
+              "Operator": 1,
+              "Components": []
             }
           },
           "TriggerAdjustment": {
@@ -82,9 +67,9 @@
           "ClearOnFoodRest": "false",
           "ClearWhenAttacks": "false",
           "ClearOnDeath": "false",
-          "HideFromCombatTooltip": "true",
+          "HideFromCombatTooltip": "false",
           "HideFromCombatLog": "false",
-          "HideFromUI": "false",
+          "HideFromUI": "true",
           "HideIfNoValue": "false",
           "VisualEffects": [],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
@@ -95,7 +80,7 @@
             "IsKith": "false",
             "HealthPercentage": 0,
             "HealthOperator": "EqualTo",
-            "Range": "Melee",
+            "Range": "None",
             "ClassTypeID": "00000000-0000-0000-0000-000000000000",
             "Source": "None",
             "DefendedBy": "None",
@@ -105,7 +90,7 @@
             "UseStealthLinger": "false",
             "PowerLevel": 0,
             "PowerLevelOperator": "EqualTo",
-            "ChanceToApply": 0.3,
+            "ChanceToApply": 1,
             "AttackHostility": "Default",
             "TargetType": "None"
           },
@@ -130,8 +115,12 @@
           "StatusEffectTypeValue": "None",
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-          "StatusEffectsValueIDs": [],
-          "AttackValueID": "3bd1b0f8-ab12-4ede-a12c-20d8ccc26fe1",
+          "StatusEffectsValueIDs": [
+            "7a16d8c3-fe74-4c7b-97a6-43999b95cd50",
+            "290e8f53-7bd5-4b7a-adf1-b050eb6ae198",
+            "600e15a1-2db9-45f7-9584-c98d8a9aeff8"
+          ],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
           "EventValue": "OnApply",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
@@ -141,6 +130,13 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
+        },
+        {
+          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
+          "DisplayName": 2219,
+          "Icon": "gui/icons/keywords/int_pos_3.png",
+          "AfflictionTypeID": "ea9b7553-52cc-40ce-aa97-1a42237e8626",
+          "IsThinUI": "false"
         }
       ]
     }

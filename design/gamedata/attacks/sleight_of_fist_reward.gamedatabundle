@@ -65,7 +65,7 @@
           "TargetAngle": 0,
           "ApplyOnceOnly": "false",
           "PathsToTarget": "true",
-          "HideFromCombatLog": "false",
+          "HideFromCombatLog": "true",
           "AdditionalAttackOnTooltip": "false",
           "DoesNotApplyDamage": "false",
           "TreatAsWeapon": "false",

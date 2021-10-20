@@ -16,7 +16,7 @@
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "GenericSpellCast1",
-          "Icon": "gui/icons/abilities/reflect-ability.png",
+          "Icon": "gui/icons/abilities/reflect.png",
           "UsageType": "None",
           "UsageValue": 3,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",

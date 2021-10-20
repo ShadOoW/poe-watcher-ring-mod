@@ -79,5 +79,20 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
       </DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>431166450</ID>
+      <DefaultText>Culling Thunder</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166451</ID>
+      <DefaultText>Dual (Protagonist)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166452</ID>
+      <DefaultText>Dual (Rival)</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

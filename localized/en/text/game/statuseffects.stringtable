@@ -24,7 +24,7 @@
     </Entry>
     <Entry>
       <ID>441166444</ID>
-      <DefaultText>Terrified</DefaultText>
+      <DefaultText>A bunch of effects</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -34,12 +34,22 @@
     </Entry>
     <Entry>
       <ID>441166446</ID>
-      <DefaultText>Destroy if under 25% Health.</DefaultText>
+      <DefaultText>Culling Thunder (Destroy under 25% Health)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>441166447</ID>
-      <DefaultText>Gain Brilliant on winning the dual.</DefaultText>
+      <DefaultText>When Rival's Health goes below 25% (Bloodied), Rival is Destroyed.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166448</ID>
+      <DefaultText>On Killing your Rival, gain Brilliant inspiration</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166449</ID>
+      <DefaultText>Rival will return 50% of damage dealt if they survive the dual.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StringTableFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>game\gui</Name>
-  <NextEntryID>1</NextEntryID>
-  <EntryCount>4561</EntryCount>
   <Entries>
     <Entry>
       <ID>451166440</ID>
-      <DefaultText>Raw Electricity</DefaultText>
+      <DefaultText>Culling Thunder</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166441</ID>
+      <DefaultText>Target affected by this status will be destroyed if bloodied (under 25% Health), if the target survives the duration, the target is rewarded with an Infinite Robust (+5 Constitution, + 2 Armor Rating, regenerate Health periodically) inspiration.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166442</ID>
+      <DefaultText>Dual (Protagonist)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166443</ID>
+      <DefaultText>Win the dual by scoring a kill on the challenger, gain Brilliant Inspiration on winning.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166444</ID>
+      <DefaultText>Dual (Rival)</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

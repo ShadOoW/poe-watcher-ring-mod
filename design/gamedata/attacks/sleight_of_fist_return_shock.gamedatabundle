@@ -2,8 +2,8 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack1",
-      "ID": "7899efcc-ab12-4b59-0000-06b334a0ec3e",
+      "DebugName": "Shock_Attack_On_Dual_Lose",
+      "ID": "7899efcc-ab12-4b59-9999-06b334a0ec3e",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
@@ -15,8 +15,8 @@
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 1,
-          "ForcedTarget": "None",
+          "ImpactDelay": 0,
+          "ForcedTarget": "Self",
           "AffectedTargetType": "All",
           "AffectedTargetConditional": {
             "Conditional": {
@@ -33,8 +33,8 @@
           "DamageData": {
             "DamageType": "Raw",
             "AlternateDamageType": "None",
-            "Minimum": 20,
-            "Maximum": 24,
+            "Minimum": 30,
+            "Maximum": 36,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
@@ -101,7 +101,7 @@
           "ApplyOnceOnly": "true",
           "PathsToTarget": "true",
           "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "true",
+          "AdditionalAttackOnTooltip": "false",
           "DoesNotApplyDamage": "false",
           "TreatAsWeapon": "true",
           "BounceData": {
@@ -131,7 +131,7 @@
           "IsMultiHit": "false",
           "MultiHitTravelDist": 10,
           "MultiHitMaxHits": 0,
-          "LaunchSource": "Target",
+          "LaunchSource": "Caster",
           "LaunchOffset": {
             "x": 0,
             "y": 0,

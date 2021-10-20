@@ -1,14 +1,14 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Culling_Thunder_On_Win_SE_ApplyOnEvent",
+      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
+      "DebugName": "Dual_On_Win_SE_ApplyOnEvent",
       "ID": "c9b3809d-ab12-4133-2222-40f340e03c95",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "StatusEffectType": "ApplyStatusEffectOnEvent",
-          "OverrideDescriptionString": 441166447,
+          "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
           "BaseValue": 0,
@@ -19,14 +19,16 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "cb6304a6-ab12-4662-1111-27b974423b7f"
+          ],
           "DurationType": "UseDurationTimeUnadjusted",
-          "Duration": 10,
+          "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
-          "StackedChildrenApplyEffects": "true",
+          "StackedChildrenApplyEffects": "false",
           "InclusionConditions": {
             "Operator": 0,
             "Components": []
@@ -34,9 +36,7 @@
           "ApplicationPrerequisites": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-
-              ]
+              "Components": []
             }
           },
           "TriggerAdjustment": {
@@ -47,7 +47,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 0,
+            "MaxTriggerCount": 1,
             "IgnoreMaxTriggerCount": "false",
             "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
@@ -94,7 +94,9 @@
             "TargetType": "None"
           },
           "AttackTargetFilter": {
-            "KeywordsIDs": [],
+            "KeywordsIDs": [
+              "cb6304a6-ab12-4662-2222-27b974423b7f"
+            ],
             "KeywordLogic": "Or",
             "Race": "None",
             "IsKith": "false",
@@ -115,7 +117,8 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "48b2c00f-ab12-4b8a-cc7c-d29ef58e0568"
+            "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
+            "8013ea4c-ab12-4d01-ffff-8a4dc88e8066"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
@@ -127,6 +130,13 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
+        },
+        {
+          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
+          "DisplayName": 431166451,
+          "Icon": "gui/icons/abilities/dual.png",
+          "AfflictionTypeID": "5d192433-ab12-42fb-1111-9043dbf5c4e9",
+          "IsThinUI": "false"
         }
       ]
     }

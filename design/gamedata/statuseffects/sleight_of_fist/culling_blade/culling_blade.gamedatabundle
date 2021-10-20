@@ -1,17 +1,17 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Charge_Brilliant_Custom",
-      "ID": "48b2c00f-ab12-4b8a-cc7c-d29ef58e0568",
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Culling_Thunder_SE_ApplyOnEvent",
+      "ID": "c9b3809d-ab12-4133-0000-40f340e03c95",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "None",
+          "StatusEffectType": "ApplyStatusEffectOnEvent",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "Child",
-          "BaseValue": 0,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 0.25,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -19,14 +19,11 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-            "ae8eaf9c-6fdc-4c63-9aac-8ee874082c0f",
-            "10599782-9812-451d-8e24-693c06bb4062"
-          ],
-          "DurationType": "UseDurationTime",
-          "Duration": 15,
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTimeUnadjusted",
+          "Duration": 12,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "AddDurationIfAlreadyApplied",
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -36,17 +33,15 @@
           },
           "ApplicationPrerequisites": {
             "Conditional": {
-              "Operator": 1,
-              "Components": [
-
-              ]
+              "Operator": 0,
+              "Components": []
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "OnScoringKill",
+            "TriggerOnEvent": "OnHealthPercentBelow",
             "TriggerOffEvent": "None",
             "ValidateWithAttackFilter": "false",
-            "ParamValue": 0,
+            "ParamValue": 0.25,
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
@@ -63,7 +58,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0
           },
-          "IsHostile": "false",
+          "IsHostile": "true",
           "ClearOnCombatEnd": "false",
           "ClearOnRest": "false",
           "ClearOnFoodRest": "false",
@@ -73,8 +68,7 @@
           "HideFromCombatLog": "false",
           "HideFromUI": "false",
           "HideIfNoValue": "false",
-          "VisualEffects": [
-          ],
+          "VisualEffects": [],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
           "AttackFilter": {
             "KeywordsIDs": [],
@@ -119,13 +113,12 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "7a16d8c3-fe74-4c7b-97a6-43999b95cd50",
-            "290e8f53-7bd5-4b7a-adf1-b050eb6ae198",
-            "600e15a1-2db9-45f7-9584-c98d8a9aeff8"
+            "8018ea4d-ab12-4d01-8bec-8a4dc88e8066",
+            "8013ea4c-ab12-4d01-0000-8a4dc88e8066"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
-          "EventValue": "OnApply",
+          "EventValue": "OnHealthPercentBelow",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",
@@ -133,13 +126,6 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
-        },
-        {
-          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 2219,
-          "Icon": "gui/icons/keywords/int_pos_3.png",
-          "AfflictionTypeID": "ea9b7553-52cc-40ce-aa97-1a42237e8626",
-          "IsThinUI": "false"
         }
       ]
     }

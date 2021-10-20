@@ -17,7 +17,7 @@
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 6,
+          "ImpactDelay": 0,
           "ForcedTarget": "Self",
           "AffectedTargetType": "Hostile",
           "AffectedTargetConditional": {
@@ -46,7 +46,7 @@
             "cb6304a6-a00f-4662-aab8-27b974423b7f"
           ],
           "StatusEffectsIDs": [
-            "b7079b28-ab12-4bac-be4d-de92ac5f5b1c"
+            "6aa2ba0a-ab12-4cf3-9b5c-0f919bcd213d"
           ],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",

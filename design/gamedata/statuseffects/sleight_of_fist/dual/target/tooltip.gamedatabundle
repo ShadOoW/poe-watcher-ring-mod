@@ -2,16 +2,16 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Terror_SE_Info_Custom",
-      "ID": "e50a43d4-ab12-ac21-dc12-c3898aabffd0",
+      "DebugName": "Dual_Inspiration_Tooltip",
+      "ID": "8013ea4c-ab12-c2d1-ffff-8a4dc88e8066",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "StatusEffectType": "None",
-          "OverrideDescriptionString": 441166444,
+          "OverrideDescriptionString": 441166449,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 0,
+          "BaseValue": 1,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -20,8 +20,8 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [],
-          "DurationType": "UseDurationTime",
-          "Duration": 5,
+          "DurationType": "UseDurationTimeUnadjusted",
+          "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
@@ -58,7 +58,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0
           },
-          "IsHostile": "false",
+          "IsHostile": "true",
           "ClearOnCombatEnd": "false",
           "ClearOnRest": "false",
           "ClearOnFoodRest": "false",

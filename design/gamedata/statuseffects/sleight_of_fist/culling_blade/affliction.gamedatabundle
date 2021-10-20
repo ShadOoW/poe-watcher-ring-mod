@@ -1,16 +1,16 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Echoing_Horror_SE_AttackOnEvent",
-      "ID": "8bf5ed78-ab12-4094-a120-afd11d7cc68f",
+      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
+      "DebugName": "Culling_Thunder_SE_Main",
+      "ID": "5e0456bf-ab12-12cf-a04e-392567edf2f4",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "AttackTargetOnEvent",
+          "StatusEffectType": "None",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "None",
+          "UseStatusEffectValueAs": "Child",
           "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
@@ -19,8 +19,10 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [],
-          "DurationType": "UseDurationTime",
+          "KeywordsIDs": [
+            "cb6304a6-ab12-4662-0000-27b974423b7f"
+          ],
+          "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 10,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
@@ -58,7 +60,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0
           },
-          "IsHostile": "false",
+          "IsHostile": "true",
           "ClearOnCombatEnd": "false",
           "ClearOnRest": "false",
           "ClearOnFoodRest": "false",
@@ -112,10 +114,12 @@
           "StatusEffectTypeValue": "None",
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-          "StatusEffectsValueIDs": [],
-          "AttackValueID": "ab2f0031-ab12-40c5-9544-79b7b1704937",
+          "StatusEffectsValueIDs": [
+            "c9b3809d-ab12-4133-0000-40f340e03c95"
+          ],
+          "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
-          "EventValue": "OnDealsDamage",
+          "EventValue": "OnApply",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",
@@ -123,6 +127,13 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
+        },
+        {
+          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
+          "DisplayName": 431166450,
+          "Icon": "gui/icons/abilities/culling-blade.png",
+          "AfflictionTypeID": "5d192433-ab12-42fb-0000-9043dbf5c4e9",
+          "IsThinUI": "false"
         }
       ]
     }

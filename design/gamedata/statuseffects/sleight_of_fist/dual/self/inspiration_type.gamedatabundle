@@ -1,0 +1,21 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AfflictionTypeGameData, Assembly-CSharp",
+      "DebugName": "AFT_Dual",
+      "ID": "5d192433-ab12-42fb-1111-9043dbf5c4e9",
+      "Components": [
+        {
+          "$type": "Game.GameData.AfflictionTypeComponent, Assembly-CSharp",
+          "DisplayName": 461166441,
+          "Icon": "gui/icons/abilities/sleight-of-fist-ability.png",
+          "AssociatedAttributeID": "00000000-0000-0000-0000-000000000000",
+          "HardCountersTypeID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionsIDs": [
+            "c9b3809d-ab12-4133-2222-40f340e03c95"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,7 @@
-blood-sacrifice-ability = 0 0 42 42
-flash-bomb-ability = 43 0 42 42
-madness-ability = 0 43 42 42
-reflect-ability = 43 43 42 42
-sleight-of-fist-ability = 86 0 42 42
+blood-sacrifice = 0 0 42 42
+culling-blade = 43 0 42 42
+dual = 0 43 42 42
+flash-bomb = 43 43 42 42
+madness = 86 0 42 42
+reflect = 86 43 42 42
+sleight-of-fist = 129 0 42 42
