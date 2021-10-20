@@ -1,0 +1,29 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Sleight_of_Fist_Custom",
+      "ID": "f80c482c-ab12-45da-3333-ce8d4e5adc44",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166442,
+          "HideFromUI": "false",
+          "EnchantCategory": "None",
+          "Cost": 1,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "0d242b39-ab12-4baa-b5e9-f6b77455c177"
+          ]
+        }
+      ]
+    }
+  ]
+}

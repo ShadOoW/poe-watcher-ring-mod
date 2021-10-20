@@ -7,7 +7,10 @@
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "9c7d6f36-50ff-4b08-a528-74789abe0599",
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          ],
           "AttackDistance": 20,
           "MinAttackDistance": 0,
           "AttackVariationID": "f334b5cf-d232-4da3-9313-71a9501104f6",
@@ -15,7 +18,7 @@
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 1,
+          "ImpactDelay": 2,
           "ForcedTarget": "None",
           "AffectedTargetType": "All",
           "AffectedTargetConditional": {
@@ -31,8 +34,8 @@
           "AccuracyBonus": 20,
           "PenetrationRating": 9,
           "DamageData": {
-            "DamageType": "Raw",
-            "AlternateDamageType": "None",
+            "DamageType": "Shock",
+            "AlternateDamageType": "Crush",
             "Minimum": 20,
             "Maximum": 24,
             "TacticalMinimumOverride": 0,

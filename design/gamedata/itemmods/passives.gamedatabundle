@@ -1,0 +1,61 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Weapon_Styles_Custom",
+      "ID": "f80c482c-ab12-45da-6666-ce8d4e5adc44",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166446,
+          "HideFromUI": "false",
+          "EnchantCategory": "None",
+          "Cost": 1,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "aae5f771-2718-4654-b13c-dd3e7234d56b",
+            "7b2a32f4-9af4-4bb1-afad-71788afc746f",
+            "754ee237-a385-4807-b404-07841e1e0ded",
+            "2d34af0a-b2e1-49f3-821b-a1f8c36c7af5"
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Weapons_Custom",
+      "ID": "f80c482c-ab12-45da-7777-ce8d4e5adc44",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166447,
+          "HideFromUI": "false",
+          "EnchantCategory": "None",
+          "Cost": 1,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [
+            "dfec5ac0-ab12-42e8-9ffe-ca6ee3cd3b2e",
+            "72739f0b-ab12-4e34-a65e-2a153b764931",
+            "f10558a6-1b8a-4680-8745-4208efbdf299",
+            "7b1bc906-ab12-4aaf-8f86-8766b9603323"
+          ],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+          ]
+        }
+      ]
+    }
+  ]
+}

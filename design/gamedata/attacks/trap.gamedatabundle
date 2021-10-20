@@ -2,25 +2,25 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
-      "DebugName": "Explosion_Aoe",
-      "ID": "f8e60c94-ab12-4eef-9c0f-122e4a96fd2d",
+      "DebugName": "Warding_Seal_Trap_Ability_Attack",
+      "ID": "d99d28bb-ab12-41bb-98a9-ec313896205d",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
           "KeywordsIDs": [
-            "f0dbb330-1b06-4175-8ce4-efe790b99213",
-            "3f075d80-787a-493e-bbaa-6da3d6dc2d0f"
+            "59769d5a-5886-4343-a208-3ff4b4a2c105",
+            "9c7d6f36-50ff-4b08-a528-74789abe0599"
           ],
-          "AttackDistance": 1.5,
+          "AttackDistance": 6,
           "MinAttackDistance": 0,
-          "AttackVariationID": "97294f82-0d50-4d9f-bf04-45ed67b2d4e9",
+          "AttackVariationID": "35abdf41-fc3f-4310-8d5d-5d7da644affc",
           "UseParentEquippableHand": "false",
           "CastSpeedID": "3bf6c8e7-49b6-46b1-8c62-cb9121f0d22a",
-          "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
+          "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
           "OverrideTacticalActionType": "None",
           "ImpactDelay": 0,
           "ForcedTarget": "Self",
-          "AffectedTargetType": "All",
+          "AffectedTargetType": "Hostile",
           "AffectedTargetConditional": {
             "Conditional": {
               "Operator": 0,
@@ -31,13 +31,13 @@
           "HostilityOverride": "Default",
           "PushDistance": 0,
           "FaceTarget": "true",
-          "AccuracyBonus": 20,
+          "AccuracyBonus": 0,
           "PenetrationRating": 9,
           "DamageData": {
             "DamageType": "Shock",
-            "AlternateDamageType": "Pierce",
-            "Minimum": 15,
-            "Maximum": 25,
+            "AlternateDamageType": "None",
+            "Minimum": 41,
+            "Maximum": 51,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
@@ -46,30 +46,28 @@
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [],
           "RandomizeStatusEffect": "false",
-          "CanGraze": "true",
+          "CanGraze": "false",
           "CanCrit": "true",
           "DefendedBy": "Reflex",
           "AfflictionsDefendedBy": "None",
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
-          "VisualEffects": [
-
-          ],
+          "VisualEffects": [],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
           "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
           "LaunchBone": "RightWeapon",
           "HitBone": "Chest",
           "OnHitShakeDuration": "None",
           "OnHitShakeStrength": "None",
-          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
           "AllReactNoise": "false",
-          "InterruptsOn": "None",
+          "InterruptsOn": "Hit",
           "InterruptType": "Normal",
           "TargetAngle": 0,
           "ApplyOnceOnly": "false",
           "PathsToTarget": "true",
           "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "false",
+          "AdditionalAttackOnTooltip": "true",
           "DoesNotApplyDamage": "false",
           "TreatAsWeapon": "false",
           "BounceData": {
@@ -99,7 +97,7 @@
           "IsMultiHit": "false",
           "MultiHitTravelDist": 10,
           "MultiHitMaxHits": 0,
-          "LaunchSource": "Target",
+          "LaunchSource": "Caster",
           "LaunchOffset": {
             "x": 0,
             "y": 0,
@@ -113,12 +111,12 @@
         },
         {
           "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
-          "BlastSize": "Medium",
-          "BlastRadiusOverride": 4,
+          "BlastSize": "Small",
+          "BlastRadiusOverride": 1.25,
           "DamageAngle": 360,
           "ExcludePrimaryTarget": "false",
           "IgnoreParentTarget": "false",
-          "ExcludeSelf": "true",
+          "ExcludeSelf": "false",
           "BlastPhysicsForce": 500,
           "PushFromCaster": "false"
         }

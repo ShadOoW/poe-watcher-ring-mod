@@ -11,7 +11,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1.75,
+          "BaseValue": 1.5,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",

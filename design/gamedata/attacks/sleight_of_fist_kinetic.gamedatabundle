@@ -7,9 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [
-            "cb6304a6-a00f-4662-aab8-27b974423b7f"
-          ],
+          "KeywordsIDs": [],
           "AttackDistance": 20,
           "MinAttackDistance": 0,
           "AttackVariationID": "d69fbf9f-0666-42bd-9362-057be614d93b",
@@ -18,12 +16,29 @@
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
           "ImpactDelay": 0,
-          "ForcedTarget": "Self",
+          "ForcedTarget": "None",
           "AffectedTargetType": "Hostile",
           "AffectedTargetConditional": {
             "Conditional": {
               "Operator": 0,
-              "Components": []
+              "Components": [
+                {
+                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
+                  "Data": {
+                    "FullName": "Boolean HasKeyword(Guid, Guid)",
+                    "Parameters": [
+                      "1a26e100-0000-0000-0000-000000000000",
+                      "cb6304a6-ab12-4662-1111-27b974423b7f"
+                    ],
+                    "Flags": "",
+                    "UnrealCall": "",
+                    "FunctionHash": -1672724494,
+                    "ParameterHash": 106703510
+                  },
+                  "Not": false,
+                  "Operator": 0
+                }
+              ]
             }
           },
           "AffectedTargetDeathState": "Alive",
@@ -46,7 +61,6 @@
             "cb6304a6-a00f-4662-aab8-27b974423b7f"
           ],
           "StatusEffectsIDs": [
-            "6aa2ba0a-ab12-4cf3-9b5c-0f919bcd213d"
           ],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",
@@ -55,7 +69,30 @@
           "AfflictionsDefendedBy": "None",
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
-          "VisualEffects": [],
+          "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_repulsive_visage.prefab",
+              "AttachPoint": "Chest",
+              "AttachObject": "Caster",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Event": "OnImpact",
+              "AnimEventID": 0,
+              "Loop": "false",
+              "Scale": "false"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_ryngrims_enervating_terror_aoe.prefab",
+              "AttachPoint": "Root",
+              "AttachObject": "Caster",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Event": "OnImpact",
+              "AnimEventID": 0,
+              "Loop": "false",
+              "Scale": "false"
+            }
+          ],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
           "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
           "LaunchBone": "Chest",
@@ -67,7 +104,7 @@
           "InterruptsOn": "Graze",
           "InterruptType": "Prone",
           "TargetAngle": 0,
-          "ApplyOnceOnly": "false",
+          "ApplyOnceOnly": "true",
           "PathsToTarget": "false",
           "HideFromCombatLog": "true",
           "AdditionalAttackOnTooltip": "true",
@@ -86,15 +123,17 @@
           "AttackValidityConditional": {
             "Conditional": {
               "Operator": 0,
-              "Components": []
+              "Components": [
+
+              ]
             }
           }
         },
         {
           "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
-          "BlastSize": "Large",
+          "BlastSize": "Override",
           "BlastRadiusOverride": 20,
-          "DamageAngle": 0,
+          "DamageAngle": 360,
           "ExcludePrimaryTarget": "true",
           "IgnoreParentTarget": "true",
           "ExcludeSelf": "true",
@@ -103,10 +142,10 @@
         },
         {
           "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
-          "LaunchAttackOnCollision": "false",
+          "LaunchAttackOnCollision": "true",
           "ProjectileCount": 1,
           "IgnoreMagicDefense": "false",
-          "ProjectileConeAngle": 145,
+          "ProjectileConeAngle": 360,
           "ProjectilePrefab": "prefabs/projectiles/fighter/clear_the_path_projectile.prefab",
           "IsMultiHit": "true",
           "MultiHitTravelDist": 20,

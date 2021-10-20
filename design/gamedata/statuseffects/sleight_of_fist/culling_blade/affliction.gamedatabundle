@@ -23,7 +23,7 @@
             "cb6304a6-ab12-4662-0000-27b974423b7f"
           ],
           "DurationType": "UseDurationTimeUnadjusted",
-          "Duration": 10,
+          "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",

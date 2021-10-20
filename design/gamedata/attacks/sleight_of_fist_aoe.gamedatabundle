@@ -1,26 +1,23 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack3",
-      "ID": "7899efcc-ab12-4b59-2222-06b334a0ec3e",
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "SOF_AOE",
+      "ID": "f8e60c94-ab12-4eef-9c0f-122e4a96fd2d",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [
-            "9c7d6f36-50ff-4b08-a528-74789abe0599",
-            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
-          ],
-          "AttackDistance": 20,
+          "KeywordsIDs": [],
+          "AttackDistance": 10,
           "MinAttackDistance": 0,
-          "AttackVariationID": "f334b5cf-d232-4da3-9313-71a9501104f6",
+          "AttackVariationID": "97294f82-0d50-4d9f-bf04-45ed67b2d4e9",
           "UseParentEquippableHand": "false",
-          "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+          "CastSpeedID": "3bf6c8e7-49b6-46b1-8c62-cb9121f0d22a",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 6,
-          "ForcedTarget": "None",
-          "AffectedTargetType": "All",
+          "ImpactDelay": 0.1,
+          "ForcedTarget": "Self",
+          "AffectedTargetType": "Hostile",
           "AffectedTargetConditional": {
             "Conditional": {
               "Operator": 0,
@@ -29,82 +26,59 @@
           },
           "AffectedTargetDeathState": "Alive",
           "HostilityOverride": "Default",
-          "PushDistance": 0,
+          "PushDistance": 4,
           "FaceTarget": "true",
           "AccuracyBonus": 20,
           "PenetrationRating": 9,
           "DamageData": {
-            "DamageType": "Shock",
-            "AlternateDamageType": "Crush",
-            "Minimum": 10,
-            "Maximum": 12,
+            "DamageType": "None",
+            "AlternateDamageType": "None",
+            "Minimum": 0,
+            "Maximum": 0,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
           },
-          "RequiresHitObject": "true",
-          "StatusEffectKeywordsIDs": [
-            "9c7d6f36-50ff-4b08-a528-74789abe0599",
-            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          "RequiresHitObject": "false",
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [
+            "6aa2ba0a-ab12-4cf3-9b5c-0f919bcd213d"
           ],
-          "StatusEffectsIDs": [],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",
           "CanCrit": "true",
-          "DefendedBy": "Deflect",
-          "AfflictionsDefendedBy": "Fortitude",
+          "DefendedBy": "None",
+          "AfflictionsDefendedBy": "None",
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
           "VisualEffects": [
             {
-              "VisualEffect": "prefabs/effects/abilities/druid/fx_returning_storm_hit.prefab",
-              "AttachPoint": "Root",
+              "VisualEffect": "prefabs/effects/abilities/fighter/fx_knockdown_hit.prefab",
+              "AttachPoint": "Chest",
               "AttachObject": "Target",
-              "AttachMode": "Position",
+              "AttachMode": "Attach",
               "MeshType": "None",
               "Event": "OnHit",
               "AnimEventID": 0,
               "Loop": "false",
               "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_jolting_touch_start.prefab",
-              "AttachPoint": "LeftHand",
-              "AttachObject": "Caster",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnAnimEvent",
-              "AnimEventID": 0,
-              "Loop": "true",
-              "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_jolting_touch_start.prefab",
-              "AttachPoint": "RightHand",
-              "AttachObject": "Caster",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnAnimEvent",
-              "AnimEventID": 0,
-              "Loop": "true",
-              "Scale": "false"
             }
           ],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
           "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
-          "LaunchBone": "Chest",
+          "LaunchBone": "RightWeapon",
           "HitBone": "Chest",
           "OnHitShakeDuration": "None",
           "OnHitShakeStrength": "None",
-          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
           "AllReactNoise": "false",
-          "InterruptsOn": "Crit",
-          "InterruptType": "Normal",
+          "InterruptsOn": "Graze",
+          "InterruptType": "Prone",
           "TargetAngle": 0,
-          "ApplyOnceOnly": "true",
+          "ApplyOnceOnly": "false",
           "PathsToTarget": "true",
           "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "true",
+          "AdditionalAttackOnTooltip": "false",
           "DoesNotApplyDamage": "false",
           "TreatAsWeapon": "false",
           "BounceData": {
@@ -130,11 +104,11 @@
           "ProjectileCount": 1,
           "IgnoreMagicDefense": "false",
           "ProjectileConeAngle": 145,
-          "ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab",
+          "ProjectilePrefab": "prefabs/projectiles/fighter/clear_the_path_projectile.prefab",
           "IsMultiHit": "false",
           "MultiHitTravelDist": 10,
           "MultiHitMaxHits": 0,
-          "LaunchSource": "Target",
+          "LaunchSource": "Caster",
           "LaunchOffset": {
             "x": 0,
             "y": 0,
@@ -145,6 +119,17 @@
             "y": 0,
             "z": 0
           }
+        },
+        {
+          "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+          "BlastSize": "Override",
+          "BlastRadiusOverride": 10,
+          "DamageAngle": 360,
+          "ExcludePrimaryTarget": "true",
+          "IgnoreParentTarget": "false",
+          "ExcludeSelf": "false",
+          "BlastPhysicsForce": 500,
+          "PushFromCaster": "false"
         }
       ]
     }

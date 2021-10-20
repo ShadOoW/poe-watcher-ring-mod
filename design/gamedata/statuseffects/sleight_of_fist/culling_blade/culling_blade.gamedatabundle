@@ -68,7 +68,48 @@
           "HideFromCombatLog": "false",
           "HideFromUI": "false",
           "HideIfNoValue": "false",
-          "VisualEffects": [],
+          "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_chest.prefab",
+              "AttachPoint": "Chest",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnApply"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+              "AttachPoint": "RightWeapon",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnApply"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+              "AttachPoint": "LeftWeapon",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnApply"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+              "AttachPoint": "ElbowRight",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnApply"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_avenging_storm_joint.prefab",
+              "AttachPoint": "ElbowLeft",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "true",
+              "Event": "OnApply"
+            }
+          ],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
           "AttackFilter": {
             "KeywordsIDs": [],

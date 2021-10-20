@@ -21,8 +21,7 @@
           "AffectedTargetConditional": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-              ]
+              "Components": []
             }
           },
           "AffectedTargetDeathState": "Alive",
@@ -32,10 +31,10 @@
           "AccuracyBonus": 20,
           "PenetrationRating": 9,
           "DamageData": {
-            "DamageType": "None",
-            "AlternateDamageType": "None",
-            "Minimum": 0,
-            "Maximum": 0,
+            "DamageType": "Shock",
+            "AlternateDamageType": "Crush",
+            "Minimum": 25,
+            "Maximum": 30,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
@@ -59,6 +58,28 @@
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
           "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/druid/fx_returning_storm_hit.prefab",
+              "AttachPoint": "Root",
+              "AttachObject": "Target",
+              "AttachMode": "Position",
+              "MeshType": "None",
+              "Event": "OnHit",
+              "AnimEventID": 0,
+              "Loop": "false",
+              "Scale": "false"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/barbarian/fx_crushing_blow.prefab",
+              "AttachPoint": "Root",
+              "AttachObject": "Target",
+              "AttachMode": "Position",
+              "MeshType": "None",
+              "Event": "OnAnimEvent",
+              "AnimEventID": 2,
+              "Loop": "false",
+              "Scale": "false"
+            },
             {
               "VisualEffect": "prefabs/effects/library/fx_dust_check_wind.prefab",
               "AttachPoint": "Chest",
@@ -115,17 +136,6 @@
               "Scale": "false"
             },
             {
-              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_pull_of_eora_linger.prefab",
-              "AttachPoint": "Root",
-              "AttachObject": "Caster",
-              "AttachMode": "Position",
-              "MeshType": "None",
-              "Event": "OnAnimEvent",
-              "AnimEventID": 2,
-              "Loop": "false",
-              "Scale": "false"
-            },
-            {
               "VisualEffect": "prefabs/effects/abilities/wizzard/fx_jolting_touch_start.prefab",
               "AttachPoint": "LeftHand",
               "AttachObject": "Caster",
@@ -148,8 +158,8 @@
               "Scale": "false"
             }
           ],
-          "AttackOnImpactID": "aa756abf-ab12-4881-2222-9948f505fe5d",
-          "ExtraAttackID": "aa756abf-ab12-4881-1111-9948f505fe5d",
+          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+          "ExtraAttackID": "f8e60c94-ab12-4eef-9c0f-122e4a96fd2d",
           "LaunchBone": "RightWeapon",
           "HitBone": "Chest",
           "OnHitShakeDuration": "Medium",

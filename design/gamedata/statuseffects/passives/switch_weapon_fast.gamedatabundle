@@ -35,8 +35,7 @@
                 "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
                 "Data": {
                   "FullName": "Boolean IsTacticalModeEnabled()",
-                  "Parameters": [
-                  ],
+                  "Parameters": [],
                   "Flags": "",
                   "UnrealCall": "",
                   "FunctionHash": 1736761810,

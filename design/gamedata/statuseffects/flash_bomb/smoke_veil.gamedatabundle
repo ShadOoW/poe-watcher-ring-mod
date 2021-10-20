@@ -37,21 +37,6 @@
             "Conditional": {
               "Operator": 0,
               "Components": [
-                {
-                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                  "Data": {
-                    "FullName": "Boolean IsPartyMember(Guid)",
-                    "Parameters": [
-                      "7d150000-0000-0000-0000-000000000000"
-                    ],
-                    "Flags": "",
-                    "UnrealCall": "",
-                    "FunctionHash": 1895597204,
-                    "ParameterHash": 1991113203
-                  },
-                  "Not": true,
-                  "Operator": 0
-                }
               ]
             }
           },
@@ -63,9 +48,9 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 2,
+            "MaxTriggerCount": 0,
             "IgnoreMaxTriggerCount": "false",
-            "RemoveEffectAtMax": "true",
+            "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
           },
           "PowerLevelScaling": {

@@ -19,7 +19,10 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "9c7d6f36-50ff-4b08-a528-74789abe0599",
+            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
+          ],
           "DurationType": "Instant",
           "Duration": 0,
           "MaxStackQuantity": 0,

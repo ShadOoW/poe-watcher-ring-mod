@@ -31,10 +31,10 @@
           "AccuracyBonus": 20,
           "PenetrationRating": 9,
           "DamageData": {
-            "DamageType": "Raw",
-            "AlternateDamageType": "None",
-            "Minimum": 30,
-            "Maximum": 36,
+            "DamageType": "Shock",
+            "AlternateDamageType": "Crush",
+            "Minimum": 25,
+            "Maximum": 30,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
@@ -54,12 +54,23 @@
           "SubstituteHitVisualEffect": "",
           "VisualEffects": [
             {
+              "VisualEffect": "prefabs/effects/abilities/chanter/fx_thrice_was_she_wronged.prefab",
+              "AttachPoint": "Root",
+              "AttachObject": "Target",
+              "AttachMode": "PositionFaceSource",
+              "MeshType": "None",
+              "Event": "OnLaunch",
+              "AnimEventID": 0,
+              "Loop": "false",
+              "Scale": "false"
+            },
+            {
               "VisualEffect": "prefabs/effects/abilities/druid/fx_returning_storm_hit.prefab",
               "AttachPoint": "Root",
               "AttachObject": "Target",
               "AttachMode": "Position",
               "MeshType": "None",
-              "Event": "OnHit",
+              "Event": "OnLaunch",
               "AnimEventID": 0,
               "Loop": "false",
               "Scale": "false"
