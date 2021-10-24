@@ -1,21 +1,24 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AttackLowestDefenseAbilityGameData, Assembly-CSharp",
-      "DebugName": "Sword_Beam",
-      "ID": "c33d9c3d-ab12-4fd0-b7fa-9dd543a28c2f",
+      "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
+      "DebugName": "Sword_Beam_2",
+      "ID": "fbf5f778-ab12-4fd3-8213-2784bba0f145",
       "Components": [
         {
           "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
+          "KeywordsIDs": [
+            "cb6404b6-ab12-0000-1111-27b974213b7f"
+          ],
           "DisplayName": 431166453,
           "Description": 431166454,
           "DescriptionTactical": -1,
+          "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "AbilityCast",
           "Icon": "gui/icons/abilities/sword-beam.png",
           "UsageType": "None",
-          "UsageValue": 2,
+          "UsageValue": 0,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
           "AbilityLevel": 0,
           "IsPassive": "false",
@@ -54,7 +57,7 @@
             }
           },
           "PowerLevelScaling": {
-            "ScalingType": "Default",
+            "ScalingType": "Never",
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
@@ -67,11 +70,13 @@
           },
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [
+            "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
+            "cb6404b6-ab12-0000-0000-27b974213b7f"
           ],
           "RandomizeStatusEffect": "false",
           "VisualEffects": [],
           "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-          "AttackID": "aa756abf-ab12-4881-2222-9948f505fe5d",
+          "AttackID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
           "AITargetingConditional": {
             "Conditional": {
               "Operator": 0,
@@ -79,13 +84,8 @@
             },
             "Scripts": []
           },
-          "AudioEventListID": "b912bb03-7ec8-497a-975c-b576e0f27779",
+          "AudioEventListID": "ac93d371-f62d-40c7-9578-472df0061dbb",
           "GrantedViaScript": "false"
-        },
-        {
-          "$type": "Game.GameData.AttackLowestDefenseAbilityComponent, Assembly-CSharp",
-          "OriginalDefenseType": "Deflection",
-          "ChangeToDefenseType": "Fortitude"
         }
       ]
     }

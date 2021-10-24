@@ -2,16 +2,16 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "LAX03_Vithrack_Luminary_Soul_Echo_SE_Echo",
-      "ID": "b4385ff1-ab12-450b-9b16-8703432d25a2",
+      "DebugName": "Nalpazca_Drugs_SE_ApplyOnEvent",
+      "ID": "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "RepeatAttacks",
+          "StatusEffectType": "AttackTargetOnEvent",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1,
+          "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -20,12 +20,12 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [],
-          "DurationType": "UseDurationTime",
-          "Duration": 3,
+          "DurationType": "UseDurationTimeUnadjusted",
+          "Duration": 1.2,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-          "ApplicationType": "ApplyOnStart",
-          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "ApplicationType": "ApplyOnTick",
+          "IntervalRateID": "47b8ed3c-ab12-4ab8-aa01-e51a374ab3ba",
           "StackedChildrenApplyEffects": "false",
           "InclusionConditions": {
             "Operator": 0,
@@ -38,7 +38,7 @@
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "OnInterval",
+            "TriggerOnEvent": "None",
             "TriggerOffEvent": "None",
             "ValidateWithAttackFilter": "false",
             "ParamValue": 0,
@@ -68,20 +68,10 @@
           "HideFromCombatLog": "false",
           "HideFromUI": "false",
           "HideIfNoValue": "false",
-          "VisualEffects": [
-            {
-              "VisualEffect": "prefabs/effects/abilities/creature/lax03/vithrack/fx_soul_echo.prefab",
-              "AttachPoint": "Chest",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Loop": "false",
-              "Event": "OnStart"
-            }
-          ],
+          "VisualEffects": [],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
           "AttackFilter": {
-            "KeywordsIDs": [
-            ],
+            "KeywordsIDs": [],
             "KeywordLogic": "Or",
             "Race": "None",
             "IsKith": "false",
@@ -114,7 +104,7 @@
             "IsMarked": "false",
             "TargetHostility": "Default"
           },
-          "ExtraValue": 0.1,
+          "ExtraValue": 0,
           "OverridePenetration": 0,
           "DamageTypeValue": "All",
           "KeywordValueID": "00000000-0000-0000-0000-000000000000",
@@ -123,9 +113,9 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [],
-          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "AttackValueID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
           "AttackOverrideValue": "None",
-          "EventValue": "OnApply",
+          "EventValue": "OnInterval",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",

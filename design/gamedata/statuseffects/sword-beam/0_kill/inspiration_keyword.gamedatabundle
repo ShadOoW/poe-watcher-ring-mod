@@ -11,7 +11,7 @@
           "AbilitiesDisplayString": -1,
           "Description": -1,
           "OverridePluralEffect": -1,
-          "Icon": "gui/icons/abilities/dual.png",
+          "Icon": "gui/icons/abilities/kill.png",
           "TintableIcon": ""
         }
       ]

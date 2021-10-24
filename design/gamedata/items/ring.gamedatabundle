@@ -37,15 +37,12 @@
             "ModelVisualDataPath": ""
           },
           "ItemModsIDs": [
-            "42d9d2bf-ab12-48ae-0000-a9b94b31fdc1",
             "42d9d2bf-ab12-48ae-1111-a9b94b31fdc1",
             "9bfcfb3b-ab12-4437-aaaa-f9d4ecf75031",
             "f80c482c-ab12-45da-2222-ce8d4e5adc44",
             "9bfcfb3b-ab12-4437-9999-f9d4ecf75031",
             "f80c482c-ab12-45da-3333-ce8d4e5adc44",
-            "9bfcfb3b-ab12-4437-4444-f9d4ecf75031",
             "f80c482c-ab12-45da-7777-ce8d4e5adc44",
-            "42d9d2bf-ab12-48ae-8888-a9b94b31fdc1",
             "f80c482c-ab12-45da-6666-ce8d4e5adc44"
           ],
           "OnEquipVisualEffects": [],
@@ -64,31 +61,6 @@
           "AttackSummonID": "00000000-0000-0000-0000-000000000000",
           "CannotSheathe": "false",
           "PropVisualEffects": []
-        }
-      ]
-    },
-    {
-      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-      "DebugName": "Self_Harm_Custom",
-      "ID": "42d9d2bf-ab12-48ae-0000-a9b94b31fdc1",
-      "Components": [
-        {
-          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
-          "DisplayName": 421166440,
-          "HideFromUI": "false",
-          "EnchantCategory": "None",
-          "Cost": 1,
-          "CursesItem": "false",
-          "DurabilityDamage": 0,
-          "StatusEffectsOnEquipIDs": [],
-          "StatusEffectsOnLaunchIDs": [],
-          "StatusEffectsOnAttackIDs": [],
-          "AbilityModsOnEquipIDs": [],
-          "OnEquipVisualEffects": [],
-          "DamageProcs": [],
-          "AbilitiesOnEquipIDs": [
-            "2d77c834-ab12-43d4-a3ca-80d9a6aa13bf"
-          ]
         }
       ]
     },

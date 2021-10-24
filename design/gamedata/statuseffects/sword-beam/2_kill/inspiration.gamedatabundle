@@ -131,7 +131,7 @@
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
           "DisplayName": 431166457,
-          "Icon": "gui/icons/abilities/dual.png",
+          "Icon": "gui/icons/abilities/kill.png",
           "AfflictionTypeID": "cb6404b6-ab12-2222-2222-27b974213b7f",
           "IsThinUI": "false"
         }

@@ -14,7 +14,7 @@
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "NoVocalization",
-          "Icon": "gui/icons/abilities/flash-bomb.png",
+          "Icon": "gui/icons/abilities/decoy.png",
           "UsageType": "None",
           "UsageValue": 5,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
