@@ -42,5 +42,10 @@
       <DefaultText>Crowd Control</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>421166450</ID>
+      <DefaultText>Sword Beam</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

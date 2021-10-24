@@ -2,18 +2,20 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
-      "DebugName": "Bomb_Flash_Bomb_Ability_AoEPrimary",
-      "ID": "0ff329c4-ab12-4ee4-aa59-63b92de98dd8",
+      "DebugName": "Hylean_squall_AoE",
+      "ID": "793745c2-ab12-4171-a255-95ab626d8719",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
-          "KeywordsIDs": [],
-          "AttackDistance": 10,
+          "KeywordsIDs": [
+            "d657e91c-fd75-4be1-aa57-5db1516d3ce4"
+          ],
+          "AttackDistance": 0,
           "MinAttackDistance": 0,
-          "AttackVariationID": "97969269-856b-478e-83ff-f752f50cc0a1",
+          "AttackVariationID": "b7f1b8f8-8864-42bc-a307-d0e01d420b5a",
           "UseParentEquippableHand": "false",
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
-          "RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
+          "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
           "OverrideTacticalActionType": "None",
           "ImpactDelay": 0,
           "ForcedTarget": "None",
@@ -26,15 +28,15 @@
           },
           "AffectedTargetDeathState": "Alive",
           "HostilityOverride": "Default",
-          "PushDistance": 0,
+          "PushDistance": 4,
           "FaceTarget": "true",
-          "AccuracyBonus": 0,
-          "PenetrationRating": 7,
+          "AccuracyBonus": 20,
+          "PenetrationRating": 9,
           "DamageData": {
-            "DamageType": "None",
+            "DamageType": "Crush",
             "AlternateDamageType": "None",
-            "Minimum": 0,
-            "Maximum": 0,
+            "Minimum": 5,
+            "Maximum": 15,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []
@@ -42,43 +44,32 @@
           "RequiresHitObject": "false",
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [
-            "35166ee4-ab12-4c17-90fe-02384e51ed23"
+            "d914661a-2f43-4c6d-92bb-ac53aafcde95"
           ],
           "RandomizeStatusEffect": "false",
-          "CanGraze": "true",
+          "CanGraze": "false",
           "CanCrit": "true",
           "DefendedBy": "Reflex",
-          "AfflictionsDefendedBy": "Fortitude",
-          "AfflictionApplicationModifier": "UpgradeOnCritAndDowngradeOnGraze",
+          "AfflictionsDefendedBy": "None",
+          "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
           "VisualEffects": [
             {
-              "VisualEffect": "prefabs/effects/items/bombs/fx_bomb_grenade_hand.prefab",
-              "AttachPoint": "RightWeapon",
+              "VisualEffect": "prefabs/effects/hit/fx_wind_impact_large.prefab",
+              "AttachPoint": "Root",
               "AttachObject": "Caster",
-              "AttachMode": "Attach",
+              "AttachMode": "AttachFaceSource",
               "MeshType": "None",
-              "Event": "OnAnimEvent",
-              "AnimEventID": 0,
-              "Loop": "true",
-              "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/items/bombs/fx_bomb_immolator_aoe.prefab",
-              "AttachPoint": "Ground",
-              "AttachObject": "Target",
-              "AttachMode": "Position",
-              "MeshType": "None",
-              "Event": "OnImpact",
+              "Event": "OnHit",
               "AnimEventID": 0,
               "Loop": "false",
-              "Scale": "true"
+              "Scale": "false"
             }
           ],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
-          "ExtraAttackID": "561cd24f-97a2-41b2-a588-cecd344568b4",
+          "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
           "LaunchBone": "RightWeapon",
-          "HitBone": "Ground",
+          "HitBone": "Chest",
           "OnHitShakeDuration": "None",
           "OnHitShakeStrength": "None",
           "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
@@ -89,7 +80,7 @@
           "ApplyOnceOnly": "false",
           "PathsToTarget": "true",
           "HideFromCombatLog": "false",
-          "AdditionalAttackOnTooltip": "false",
+          "AdditionalAttackOnTooltip": "true",
           "DoesNotApplyDamage": "false",
           "TreatAsWeapon": "false",
           "BounceData": {
@@ -111,26 +102,26 @@
         },
         {
           "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
-          "BlastSize": "Medium",
-          "BlastRadiusOverride": 1.5,
-          "DamageAngle": 360,
+          "BlastSize": "Large",
+          "BlastRadiusOverride": 5,
+          "DamageAngle": 60,
           "ExcludePrimaryTarget": "false",
           "IgnoreParentTarget": "false",
-          "ExcludeSelf": "true",
+          "ExcludeSelf": "false",
           "BlastPhysicsForce": 500,
-          "PushFromCaster": "false"
+          "PushFromCaster": "true"
         },
         {
           "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
-          "LaunchAttackOnCollision": "true",
+          "LaunchAttackOnCollision": "false",
           "ProjectileCount": 1,
           "IgnoreMagicDefense": "false",
-          "ProjectileConeAngle": 360,
-          "ProjectilePrefab": "prefabs/projectiles/items/fx_bomb_frost_projectile.prefab",
+          "ProjectileConeAngle": 145,
+          "ProjectilePrefab": "prefabs/projectiles/chanter/fx_so_singt_thy_biting_projectile.prefab",
           "IsMultiHit": "false",
           "MultiHitTravelDist": 10,
           "MultiHitMaxHits": 0,
-          "LaunchSource": "Caster",
+          "LaunchSource": "Target",
           "LaunchOffset": {
             "x": 0,
             "y": 0,

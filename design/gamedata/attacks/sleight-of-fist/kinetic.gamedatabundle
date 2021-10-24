@@ -17,28 +17,11 @@
           "OverrideTacticalActionType": "None",
           "ImpactDelay": 0,
           "ForcedTarget": "None",
-          "AffectedTargetType": "Hostile",
+          "AffectedTargetType": "All",
           "AffectedTargetConditional": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-                {
-                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                  "Data": {
-                    "FullName": "Boolean HasKeyword(Guid, Guid)",
-                    "Parameters": [
-                      "1a26e100-0000-0000-0000-000000000000",
-                      "cb6304a6-ab12-4662-1111-27b974423b7f"
-                    ],
-                    "Flags": "",
-                    "UnrealCall": "",
-                    "FunctionHash": -1672724494,
-                    "ParameterHash": 106703510
-                  },
-                  "Not": false,
-                  "Operator": 0
-                }
-              ]
+              "Components": []
             }
           },
           "AffectedTargetDeathState": "Alive",
@@ -57,11 +40,8 @@
             "DamageProcs": []
           },
           "RequiresHitObject": "false",
-          "StatusEffectKeywordsIDs": [
-            "cb6304a6-a00f-4662-aab8-27b974423b7f"
-          ],
-          "StatusEffectsIDs": [
-          ],
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",
           "CanCrit": "false",
@@ -69,30 +49,7 @@
           "AfflictionsDefendedBy": "None",
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
-          "VisualEffects": [
-            {
-              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_repulsive_visage.prefab",
-              "AttachPoint": "Chest",
-              "AttachObject": "Caster",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnImpact",
-              "AnimEventID": 0,
-              "Loop": "false",
-              "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/abilities/wizzard/fx_ryngrims_enervating_terror_aoe.prefab",
-              "AttachPoint": "Root",
-              "AttachObject": "Caster",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnImpact",
-              "AnimEventID": 0,
-              "Loop": "false",
-              "Scale": "false"
-            }
-          ],
+          "VisualEffects": [],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
           "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
           "LaunchBone": "Chest",
@@ -108,8 +65,8 @@
           "PathsToTarget": "false",
           "HideFromCombatLog": "true",
           "AdditionalAttackOnTooltip": "true",
-          "DoesNotApplyDamage": "false",
-          "TreatAsWeapon": "false",
+          "DoesNotApplyDamage": "true",
+          "TreatAsWeapon": "true",
           "BounceData": {
             "Bounces": 0,
             "Multiplier": 0.5,
@@ -134,15 +91,15 @@
           "BlastSize": "Override",
           "BlastRadiusOverride": 20,
           "DamageAngle": 360,
-          "ExcludePrimaryTarget": "true",
-          "IgnoreParentTarget": "true",
-          "ExcludeSelf": "true",
+          "ExcludePrimaryTarget": "false",
+          "IgnoreParentTarget": "false",
+          "ExcludeSelf": "false",
           "BlastPhysicsForce": 500,
           "PushFromCaster": "false"
         },
         {
           "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
-          "LaunchAttackOnCollision": "true",
+          "LaunchAttackOnCollision": "false",
           "ProjectileCount": 1,
           "IgnoreMagicDefense": "false",
           "ProjectileConeAngle": 360,

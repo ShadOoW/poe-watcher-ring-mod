@@ -83,6 +83,15 @@
               "MeshType": "None",
               "Loop": "false",
               "Event": "OnActivate"
+            },
+            {
+              "VisualEffect": "prefabs/effects/abilities/cipher/fx_screaming_souls_aoe.prefab",
+              "AttachPoint": "Chest",
+              "AttachObject": "Caster",
+              "AttachMode": "PositionFaceSource",
+              "MeshType": "None",
+              "Loop": "false",
+              "Event": "OnActivate"
             }
           ],
           "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",

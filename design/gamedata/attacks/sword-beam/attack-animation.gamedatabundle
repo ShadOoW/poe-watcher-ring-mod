@@ -1,0 +1,123 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
+      "DebugName": "DeathGuard_DevourEssence_AttackPulseAoE",
+      "ID": "1a823e06-ab12-428c-1111-96d64ea7a1b9",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
+          "KeywordsIDs": [],
+          "AttackDistance": 20,
+          "MinAttackDistance": 0,
+          "AttackVariationID": "5f56a8f2-66a2-4bab-90ae-af919c8116f0",
+          "UseParentEquippableHand": "false",
+          "CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+          "RecoveryTimeID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+          "OverrideTacticalActionType": "None",
+          "ImpactDelay": 0,
+          "ForcedTarget": "Self",
+          "AffectedTargetType": "Hostile",
+          "AffectedTargetConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          },
+          "AffectedTargetDeathState": "Alive",
+          "HostilityOverride": "Default",
+          "PushDistance": 5,
+          "FaceTarget": "true",
+          "AccuracyBonus": 20,
+          "PenetrationRating": 9,
+          "DamageData": {
+            "DamageType": "None",
+            "AlternateDamageType": "None",
+            "Minimum": 0,
+            "Maximum": 0,
+            "TacticalMinimumOverride": 0,
+            "TacticalMaximumOverride": 0,
+            "DamageProcs": []
+          },
+          "RequiresHitObject": "false",
+          "StatusEffectKeywordsIDs": [],
+          "StatusEffectsIDs": [],
+          "RandomizeStatusEffect": "false",
+          "CanGraze": "false",
+          "CanCrit": "false",
+          "DefendedBy": "None",
+          "AfflictionsDefendedBy": "None",
+          "AfflictionApplicationModifier": "None",
+          "SubstituteHitVisualEffect": "",
+          "VisualEffects": [],
+          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+          "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
+          "LaunchBone": "RightWeapon",
+          "HitBone": "Chest",
+          "OnHitShakeDuration": "None",
+          "OnHitShakeStrength": "None",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
+          "AllReactNoise": "false",
+          "InterruptsOn": "Graze",
+          "InterruptType": "Prone",
+          "TargetAngle": 0,
+          "ApplyOnceOnly": "true",
+          "PathsToTarget": "true",
+          "HideFromCombatLog": "false",
+          "AdditionalAttackOnTooltip": "false",
+          "DoesNotApplyDamage": "true",
+          "TreatAsWeapon": "false",
+          "BounceData": {
+            "Bounces": 0,
+            "Multiplier": 0.5,
+            "Range": 10,
+            "InRangeOrder": "false",
+            "NoRepeatTargets": "false",
+            "AlwaysBounceAtEnemies": "false",
+            "Delay": 0,
+            "NeverBounce": "false"
+          },
+          "AttackValidityConditional": {
+            "Conditional": {
+              "Operator": 0,
+              "Components": []
+            }
+          }
+        },
+        {
+          "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+          "BlastSize": "Override",
+          "BlastRadiusOverride": 10,
+          "DamageAngle": 1,
+          "ExcludePrimaryTarget": "false",
+          "IgnoreParentTarget": "false",
+          "ExcludeSelf": "false",
+          "BlastPhysicsForce": 500,
+          "PushFromCaster": "false"
+        },
+        {
+          "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
+          "LaunchAttackOnCollision": "false",
+          "ProjectileCount": 1,
+          "IgnoreMagicDefense": "false",
+          "ProjectileConeAngle": 145,
+          "ProjectilePrefab": "prefabs/projectiles/fighter/clear_the_path_projectile.prefab",
+          "IsMultiHit": "true",
+          "MultiHitTravelDist": 10,
+          "MultiHitMaxHits": 0,
+          "LaunchSource": "Caster",
+          "LaunchOffset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "LaunchOffsetRandom": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}

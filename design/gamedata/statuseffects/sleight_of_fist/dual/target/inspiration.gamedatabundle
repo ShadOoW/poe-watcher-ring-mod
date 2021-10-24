@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "AttackTargetOnEvent",
+          "StatusEffectType": "ApplyStatusEffectOnEvent",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",

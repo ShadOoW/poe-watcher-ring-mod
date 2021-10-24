@@ -2,8 +2,8 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack2_SE_AttackOnEvent",
-      "ID": "9b3b1abc-ab12-4276-1111-1ca1e12d9bef",
+      "DebugName": "Nalpazca_Drugs_SE_ApplyOnEvent",
+      "ID": "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
@@ -19,16 +19,13 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-            "9c7d6f36-50ff-4b08-a528-74789abe0599",
-            "a7a06148-9a41-44fe-9cc8-31acef0e13aa"
-          ],
-          "DurationType": "Instant",
-          "Duration": 0,
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTimeUnadjusted",
+          "Duration": 1.2,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
-          "ApplicationType": "ApplyOnStart",
-          "IntervalRateID": "00000000-0000-0000-0000-000000000000",
+          "ApplicationType": "ApplyOnTick",
+          "IntervalRateID": "47b8ed3c-ab12-4ab8-aa01-e51a374ab3ba",
           "StackedChildrenApplyEffects": "false",
           "InclusionConditions": {
             "Operator": 0,
@@ -48,7 +45,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 1,
+            "MaxTriggerCount": 0,
             "IgnoreMaxTriggerCount": "false",
             "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
@@ -96,11 +93,11 @@
           },
           "AttackTargetFilter": {
             "KeywordsIDs": [],
-            "KeywordLogic": "And",
+            "KeywordLogic": "Or",
             "Race": "None",
             "IsKith": "false",
-            "HealthPercentage": 50,
-            "HealthOperator": "LessThan",
+            "HealthPercentage": 0,
+            "HealthOperator": "EqualTo",
             "Distance": 0,
             "DistanceOperator": "EqualTo",
             "HasDOT": "false",
@@ -116,9 +113,9 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [],
-          "AttackValueID": "7899efcc-ab12-4b59-1111-06b334a0ec3e",
+          "AttackValueID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
           "AttackOverrideValue": "None",
-          "EventValue": "OnApply",
+          "EventValue": "OnInterval",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",

@@ -1,17 +1,17 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Brilliant_Inspiration_Custom",
-      "ID": "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "LAX03_Vithrack_Luminary_Soul_Echo_SE_Echo",
+      "ID": "b4385ff1-ab12-450b-9b16-8703432d25a2",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "None",
+          "StatusEffectType": "RepeatAttacks",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "Child",
-          "BaseValue": 0,
+          "UseStatusEffectValueAs": "None",
+          "BaseValue": 1,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -19,14 +19,11 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-            "ae8eaf9c-6fdc-4c63-9aac-8ee874082c0f",
-            "10599782-9812-451d-8e24-693c06bb4062"
-          ],
+          "KeywordsIDs": [],
           "DurationType": "UseDurationTime",
-          "Duration": 12,
+          "Duration": 3,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "AddDurationIfAlreadyApplied",
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -36,12 +33,12 @@
           },
           "ApplicationPrerequisites": {
             "Conditional": {
-              "Operator": 1,
+              "Operator": 0,
               "Components": []
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "None",
+            "TriggerOnEvent": "OnInterval",
             "TriggerOffEvent": "None",
             "ValidateWithAttackFilter": "false",
             "ParamValue": 0,
@@ -67,15 +64,24 @@
           "ClearOnFoodRest": "false",
           "ClearWhenAttacks": "false",
           "ClearOnDeath": "false",
-          "HideFromCombatTooltip": "true",
+          "HideFromCombatTooltip": "false",
           "HideFromCombatLog": "false",
-          "HideFromUI": "true",
+          "HideFromUI": "false",
           "HideIfNoValue": "false",
           "VisualEffects": [
+            {
+              "VisualEffect": "prefabs/effects/abilities/creature/lax03/vithrack/fx_soul_echo.prefab",
+              "AttachPoint": "Chest",
+              "AttachMode": "Attach",
+              "MeshType": "None",
+              "Loop": "false",
+              "Event": "OnStart"
+            }
           ],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
           "AttackFilter": {
-            "KeywordsIDs": [],
+            "KeywordsIDs": [
+            ],
             "KeywordLogic": "Or",
             "Race": "None",
             "IsKith": "false",
@@ -108,7 +114,7 @@
             "IsMarked": "false",
             "TargetHostility": "Default"
           },
-          "ExtraValue": 0,
+          "ExtraValue": 0.1,
           "OverridePenetration": 0,
           "DamageTypeValue": "All",
           "KeywordValueID": "00000000-0000-0000-0000-000000000000",
@@ -116,11 +122,7 @@
           "StatusEffectTypeValue": "None",
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-          "StatusEffectsValueIDs": [
-            "7a16d8c3-fe74-4c7b-97a6-43999b95cd50",
-            "290e8f53-7bd5-4b7a-adf1-b050eb6ae198",
-            "600e15a1-2db9-45f7-9584-c98d8a9aeff8"
-          ],
+          "StatusEffectsValueIDs": [],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
           "EventValue": "OnApply",
@@ -131,13 +133,6 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
-        },
-        {
-          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 2219,
-          "Icon": "gui/icons/keywords/int_pos_3.png",
-          "AfflictionTypeID": "ea9b7553-52cc-40ce-aa97-1a42237e8626",
-          "IsThinUI": "false"
         }
       ]
     }

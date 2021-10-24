@@ -81,7 +81,7 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
     </Entry>
     <Entry>
       <ID>431166450</ID>
-      <DefaultText>Culling Thunder</DefaultText>
+      <DefaultText>Culling Blade</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -92,6 +92,31 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
     <Entry>
       <ID>431166452</ID>
       <DefaultText>Dual (Rival)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166453</ID>
+      <DefaultText>Sword Beam</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166454</ID>
+      <DefaultText>Like in Zelda...</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166455</ID>
+      <DefaultText>Score a kill</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166456</ID>
+      <DefaultText>Score a second kill</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166457</ID>
+      <DefaultText>Score a third kill</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

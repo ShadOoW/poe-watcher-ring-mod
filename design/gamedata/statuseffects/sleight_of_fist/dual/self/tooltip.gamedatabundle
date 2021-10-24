@@ -20,7 +20,7 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [],
-          "DurationType": "UseDurationTime",
+          "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",

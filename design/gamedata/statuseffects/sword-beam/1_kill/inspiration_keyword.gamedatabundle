@@ -2,12 +2,12 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
-      "DebugName": "Status_Effect_Keyword_Dual_Enemy",
-      "ID": "cb6304a6-ab12-4662-2222-27b974423b7f",
+      "DebugName": "Status_Effect_Keyword_Dual",
+      "ID": "cb6404b6-ab12-1111-1111-27b974213b7f",
       "Components": [
         {
           "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
-          "GuiDisplayString": 451166443,
+          "GuiDisplayString": 451166445,
           "AbilitiesDisplayString": -1,
           "Description": -1,
           "OverridePluralEffect": -1,

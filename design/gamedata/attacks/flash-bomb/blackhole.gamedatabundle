@@ -1,22 +1,22 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
-      "DebugName": "SOF_AOE",
-      "ID": "f8e60c94-ab12-4eef-9c0f-122e4a96fd2d",
+      "$type": "Game.GameData.AttackPulsedAOEGameData, Assembly-CSharp",
+      "DebugName": "Bomb_Implosion_charge_Ability_PulseAoEPullEffect",
+      "ID": "e7b402c7-ab12-4bde-b735-2f1fb1081e82",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
           "KeywordsIDs": [],
-          "AttackDistance": 10,
+          "AttackDistance": 12,
           "MinAttackDistance": 0,
-          "AttackVariationID": "97294f82-0d50-4d9f-bf04-45ed67b2d4e9",
+          "AttackVariationID": "3a40f52b-aeb5-4441-a44f-3e85e5c443f0",
           "UseParentEquippableHand": "false",
-          "CastSpeedID": "3bf6c8e7-49b6-46b1-8c62-cb9121f0d22a",
-          "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
+          "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
+          "RecoveryTimeID": "566840d9-1561-4243-8ca7-889df9869847",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 0.1,
-          "ForcedTarget": "Self",
+          "ImpactDelay": 2,
+          "ForcedTarget": "None",
           "AffectedTargetType": "Hostile",
           "AffectedTargetConditional": {
             "Conditional": {
@@ -26,10 +26,10 @@
           },
           "AffectedTargetDeathState": "Alive",
           "HostilityOverride": "Default",
-          "PushDistance": 4,
+          "PushDistance": -5,
           "FaceTarget": "true",
           "AccuracyBonus": 20,
-          "PenetrationRating": 9,
+          "PenetrationRating": 8,
           "DamageData": {
             "DamageType": "None",
             "AlternateDamageType": "None",
@@ -42,7 +42,7 @@
           "RequiresHitObject": "false",
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [
-            "6aa2ba0a-ab12-4cf3-9b5c-0f919bcd213d"
+            "89e6f688-c158-418f-80e8-dcdbcd887b71"
           ],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",
@@ -51,31 +51,19 @@
           "AfflictionsDefendedBy": "None",
           "AfflictionApplicationModifier": "None",
           "SubstituteHitVisualEffect": "",
-          "VisualEffects": [
-            {
-              "VisualEffect": "prefabs/effects/abilities/fighter/fx_knockdown_hit.prefab",
-              "AttachPoint": "Chest",
-              "AttachObject": "Target",
-              "AttachMode": "Attach",
-              "MeshType": "None",
-              "Event": "OnHit",
-              "AnimEventID": 0,
-              "Loop": "false",
-              "Scale": "false"
-            }
-          ],
+          "VisualEffects": [],
           "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
           "ExtraAttackID": "00000000-0000-0000-0000-000000000000",
           "LaunchBone": "RightWeapon",
-          "HitBone": "Chest",
+          "HitBone": "Ground",
           "OnHitShakeDuration": "None",
           "OnHitShakeStrength": "None",
-          "NoiseLevelID": "82bc1ce9-3a81-41ca-a61a-cc1f73a53de7",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
           "AllReactNoise": "false",
-          "InterruptsOn": "Graze",
-          "InterruptType": "Prone",
+          "InterruptsOn": "None",
+          "InterruptType": "Normal",
           "TargetAngle": 0,
-          "ApplyOnceOnly": "false",
+          "ApplyOnceOnly": "true",
           "PathsToTarget": "true",
           "HideFromCombatLog": "false",
           "AdditionalAttackOnTooltip": "false",
@@ -99,12 +87,34 @@
           }
         },
         {
+          "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
+          "BlastSize": "Medium",
+          "BlastRadiusOverride": 5,
+          "DamageAngle": 360,
+          "ExcludePrimaryTarget": "false",
+          "IgnoreParentTarget": "false",
+          "ExcludeSelf": "true",
+          "BlastPhysicsForce": 500,
+          "PushFromCaster": "false"
+        },
+        {
+          "$type": "Game.GameData.AttackPulsedAOEComponent, Assembly-CSharp",
+          "Duration": 10,
+          "PulseIntervalRate": 2.5,
+          "OneValidTargetPerPulse": "false",
+          "PulsedVisualEffect": "",
+          "LingerVisualEffect": "prefabs/effects/items/bombs/fx_bomb_implosion_pulse.prefab",
+          "LingerEffectAttachMode": "Attach",
+          "LingerEffectAttachPoint": "Ground",
+          "Scale": "true"
+        },
+        {
           "$type": "Game.GameData.AttackRangedComponent, Assembly-CSharp",
           "LaunchAttackOnCollision": "false",
           "ProjectileCount": 1,
           "IgnoreMagicDefense": "false",
           "ProjectileConeAngle": 145,
-          "ProjectilePrefab": "prefabs/projectiles/fighter/clear_the_path_projectile.prefab",
+          "ProjectilePrefab": "prefabs/projectiles/invisible_projectile.prefab",
           "IsMultiHit": "false",
           "MultiHitTravelDist": 10,
           "MultiHitMaxHits": 0,
@@ -119,17 +129,6 @@
             "y": 0,
             "z": 0
           }
-        },
-        {
-          "$type": "Game.GameData.AttackAOEComponent, Assembly-CSharp",
-          "BlastSize": "Override",
-          "BlastRadiusOverride": 10,
-          "DamageAngle": 360,
-          "ExcludePrimaryTarget": "true",
-          "IgnoreParentTarget": "false",
-          "ExcludeSelf": "false",
-          "BlastPhysicsForce": 500,
-          "PushFromCaster": "false"
         }
       ]
     }

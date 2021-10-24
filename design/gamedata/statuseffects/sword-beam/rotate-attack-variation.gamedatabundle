@@ -1,0 +1,23 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AttackVariationGameData, Assembly-CSharp",
+      "DebugName": "Rotate_Attack_Variation",
+      "ID": "5f56a8f2-ab12-4bab-90ae-af919c8116f0",
+      "Components": [
+        {
+          "$type": "Game.GameData.AttackVariationComponent, Assembly-CSharp",
+          "Index": 17,
+          "PerControllerInformation": [
+            {
+              "Controller": "art/animation/animationcontrollers/biped/default.controller",
+              "DoNotAutomaticallyCalculate": "true",
+              "PreHitDuration": 1.2,
+              "SupportsLooping": "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

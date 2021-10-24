@@ -1,16 +1,16 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Brilliant_Inspiration_Custom",
-      "ID": "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Beam_Attack_3_SE_AttackOnEvent",
+      "ID": "223b1ccc-ab12-4276-2222-1ca1ac2d9bef",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "None",
+          "StatusEffectType": "AttackTargetOnEvent",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "Child",
+          "UseStatusEffectValueAs": "None",
           "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
@@ -19,14 +19,11 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-            "ae8eaf9c-6fdc-4c63-9aac-8ee874082c0f",
-            "10599782-9812-451d-8e24-693c06bb4062"
-          ],
-          "DurationType": "UseDurationTime",
-          "Duration": 12,
+          "KeywordsIDs": [],
+          "DurationType": "Instant",
+          "Duration": 0,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "AddDurationIfAlreadyApplied",
+          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",
@@ -36,7 +33,7 @@
           },
           "ApplicationPrerequisites": {
             "Conditional": {
-              "Operator": 1,
+              "Operator": 0,
               "Components": []
             }
           },
@@ -48,7 +45,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 0,
+            "MaxTriggerCount": 1,
             "IgnoreMaxTriggerCount": "false",
             "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
@@ -67,12 +64,11 @@
           "ClearOnFoodRest": "false",
           "ClearWhenAttacks": "false",
           "ClearOnDeath": "false",
-          "HideFromCombatTooltip": "true",
+          "HideFromCombatTooltip": "false",
           "HideFromCombatLog": "false",
-          "HideFromUI": "true",
+          "HideFromUI": "false",
           "HideIfNoValue": "false",
-          "VisualEffects": [
-          ],
+          "VisualEffects": [],
           "MaterialReplacementID": "00000000-0000-0000-0000-000000000000",
           "AttackFilter": {
             "KeywordsIDs": [],
@@ -116,12 +112,8 @@
           "StatusEffectTypeValue": "None",
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
-          "StatusEffectsValueIDs": [
-            "7a16d8c3-fe74-4c7b-97a6-43999b95cd50",
-            "290e8f53-7bd5-4b7a-adf1-b050eb6ae198",
-            "600e15a1-2db9-45f7-9584-c98d8a9aeff8"
-          ],
-          "AttackValueID": "00000000-0000-0000-0000-000000000000",
+          "StatusEffectsValueIDs": [],
+          "AttackValueID": "1a823e06-ab12-428c-2222-96d64ea7a1b9",
           "AttackOverrideValue": "None",
           "EventValue": "OnApply",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
@@ -131,13 +123,6 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
-        },
-        {
-          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 2219,
-          "Icon": "gui/icons/keywords/int_pos_3.png",
-          "AfflictionTypeID": "ea9b7553-52cc-40ce-aa97-1a42237e8626",
-          "IsThinUI": "false"
         }
       ]
     }

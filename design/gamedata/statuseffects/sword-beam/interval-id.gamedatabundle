@@ -1,0 +1,16 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.IntervalRateGameData, Assembly-CSharp",
+      "DebugName": "Sword_Beam_Interval",
+      "ID": "47b8ed3c-ab12-4ab8-aa01-e51a374ab3ba",
+      "Components": [
+        {
+          "$type": "Game.GameData.IntervalRateComponent, Assembly-CSharp",
+          "Interval": 0.1,
+          "OnlyWhileMoving": "false"
+        }
+      ]
+    }
+  ]
+}

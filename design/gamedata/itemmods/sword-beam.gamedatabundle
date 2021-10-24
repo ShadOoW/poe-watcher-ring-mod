@@ -1,0 +1,29 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Sword_Beam_ItemMod",
+      "ID": "9bfcfb3b-ab12-4437-aaaa-f9d4ecf75031",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166450,
+          "HideFromUI": "false",
+          "EnchantCategory": "Unique",
+          "Cost": 0,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "fbf5f778-ab12-4fd3-8213-2784bba0f145"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -34,7 +34,7 @@
     </Entry>
     <Entry>
       <ID>441166446</ID>
-      <DefaultText>Culling Thunder (Destroy under 25% Health)</DefaultText>
+      <DefaultText>Culling Blade (Destroy under 25% Health)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -50,6 +50,11 @@
     <Entry>
       <ID>441166449</ID>
       <DefaultText>Rival will return 50% of damage dealt if they survive the dual.</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>441166450</ID>
+      <DefaultText>For a short duration, throw sword beams around you randomly.</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

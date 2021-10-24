@@ -19,12 +19,22 @@
     </Entry>
     <Entry>
       <ID>451166443</ID>
-      <DefaultText>Win the dual by scoring a kill on the challenger, gain Brilliant Inspiration on winning.</DefaultText>
+      <DefaultText>Dual (Rival)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>451166444</ID>
-      <DefaultText>Dual (Rival)</DefaultText>
+      <DefaultText>Kill 3 foes (0 / 3)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166445</ID>
+      <DefaultText>Kill 3 foes (1 / 3)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166446</ID>
+      <DefaultText>Kill 3 foes (2 / 3)</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

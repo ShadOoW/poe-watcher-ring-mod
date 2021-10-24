@@ -17,5 +17,10 @@
       <DefaultText>Dual (Rival)</DefaultText>
       <FemaleText />
     </Entry>
+    <Entry>
+      <ID>461166443</ID>
+      <DefaultText>My Turn to strike</DefaultText>
+      <FemaleText />
+    </Entry>
   </Entries>
 </StringTableFile>

@@ -5,3 +5,4 @@ flash-bomb = 43 43 42 42
 madness = 86 0 42 42
 reflect = 86 43 42 42
 sleight-of-fist = 129 0 42 42
+sword-beam = 172 0 42 42

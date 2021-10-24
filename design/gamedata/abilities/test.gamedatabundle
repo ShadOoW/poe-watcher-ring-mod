@@ -2,23 +2,28 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "Bomb_Flash_Bomb_Ability",
-      "ID": "6906afe1-ab12-4f2c-93f0-2fa9c26f6f43",
+      "DebugName": "Enduring_Shadows",
+      "ID": "c15e41f1-ab12-4d67-b7b3-b79134b80e2a",
       "Components": [
         {
           "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
           "KeywordsIDs": [],
-          "DisplayName": 431166448,
-          "Description": 431166449,
+          "DisplayName": 2759,
+          "Description": 1034,
           "DescriptionTactical": -1,
-          "UpgradeDescriptions": [],
-          "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
+          "UpgradeDescriptions": [
+            {
+              "String": 2760,
+              "StringTactical": -1
+            }
+          ],
+          "UpgradedFromID": "e110ab6f-f378-496f-b207-b557ea782f4f",
           "Vocalization": "NoVocalization",
-          "Icon": "gui/icons/abilities/flash-bomb.png",
+          "Icon": "gui/icons/abilities/rogue/enduring_shadows.png",
           "UsageType": "None",
-          "UsageValue": 5,
+          "UsageValue": 3,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
-          "AbilityLevel": 0,
+          "AbilityLevel": 8,
           "IsPassive": "false",
           "StackingRuleOverride": "Default",
           "TriggerOnHit": "false",
@@ -30,7 +35,7 @@
           "ShowStatusEffects": "false",
           "HideFromCombatLog": "false",
           "UniqueSet": "None",
-          "NoiseLevelID": "cfd4a8e0-3941-40cb-b05d-604ec49279d5",
+          "NoiseLevelID": "15743f94-1026-40b0-8e13-a667b3f66f63",
           "DurationOverride": 0,
           "OverrideEmpower": "Default",
           "ClearsOnMovement": "false",
@@ -57,9 +62,9 @@
           "PowerLevelScaling": {
             "ScalingType": "Default",
             "BaseLevel": 0,
-            "LevelIncrement": 0,
+            "LevelIncrement": 1,
             "MaxLevel": 0,
-            "DamageAdjustment": 0,
+            "DamageAdjustment": 1,
             "DurationAdjustment": 1,
             "BounceCountAdjustment": 0,
             "ProjectileCountAdjustment": 0,
@@ -85,7 +90,7 @@
             },
             "Scripts": []
           },
-          "AudioEventListID": "3bd8ecb4-2fe8-41d7-bfff-cfbbe0de1990",
+          "AudioEventListID": "da893c2b-54a9-4735-a6c3-c18f85aa00ec",
           "GrantedViaScript": "false"
         }
       ]
