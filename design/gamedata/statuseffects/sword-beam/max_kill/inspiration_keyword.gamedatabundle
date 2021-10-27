@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Status_Effect_Keyword_Dual",
+      "ID": "cb6404b6-ab12-3333-1111-27b974213b7f",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 451166447,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "gui/icons/abilities/kill.png",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

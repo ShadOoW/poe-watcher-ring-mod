@@ -51,12 +51,12 @@
           "SubstituteHitVisualEffect": "",
           "VisualEffects": [
             {
-              "VisualEffect": "prefabs/effects/abilities/fighter/fx_knockdown_hit.prefab",
+              "VisualEffect": "prefabs/effects/abilities/monk/fx_whispers_of_the_wind.prefab",
               "AttachPoint": "Chest",
-              "AttachObject": "Target",
-              "AttachMode": "Attach",
+              "AttachObject": "Caster",
+              "AttachMode": "Position",
               "MeshType": "None",
-              "Event": "OnHit",
+              "Event": "OnLaunch",
               "AnimEventID": 0,
               "Loop": "false",
               "Scale": "false"
@@ -66,17 +66,6 @@
               "AttachPoint": "Root",
               "AttachObject": "Caster",
               "AttachMode": "PositionRotation",
-              "MeshType": "None",
-              "Event": "OnLaunch",
-              "AnimEventID": 0,
-              "Loop": "false",
-              "Scale": "false"
-            },
-            {
-              "VisualEffect": "prefabs/effects/abilities/priest/fx_spark_souls_righteous_aoe.prefab",
-              "AttachPoint": "Root",
-              "AttachObject": "Caster",
-              "AttachMode": "Position",
               "MeshType": "None",
               "Event": "OnLaunch",
               "AnimEventID": 0,

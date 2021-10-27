@@ -1,14 +1,14 @@
 {
   "GameDataObjects": [
     {
-      "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Dual_On_Win_SE_ApplyOnEvent",
-      "ID": "c9b3809d-ab12-4133-2222-40f340e03c95",
+      "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
+      "DebugName": "Mage_Slayer_SE_ApplyOnEvent_Custom",
+      "ID": "c92d92c0-ab12-3333-6666-61fa5c2bdb17",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "ApplyStatusEffectOnEvent",
-          "OverrideDescriptionString": -1,
+          "StatusEffectType": "ApplyStatusEffectToEnemyOnEvent",
+          "OverrideDescriptionString": 341,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
           "BaseValue": 0,
@@ -19,9 +19,7 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-            "cb6304a6-ab12-4662-1111-27b974423b7f"
-          ],
+          "KeywordsIDs": [],
           "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 12,
           "MaxStackQuantity": 0,
@@ -40,14 +38,14 @@
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "OnScoringKill",
-            "TriggerOffEvent": "OnScoringKill",
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
             "ValidateWithAttackFilter": "false",
             "ParamValue": 0,
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 1,
+            "MaxTriggerCount": 0,
             "IgnoreMaxTriggerCount": "false",
             "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
@@ -79,9 +77,9 @@
             "IsKith": "false",
             "HealthPercentage": 0,
             "HealthOperator": "EqualTo",
-            "Range": "None",
+            "Range": "Melee",
             "ClassTypeID": "00000000-0000-0000-0000-000000000000",
-            "Source": "None",
+            "Source": "Weapon",
             "DefendedBy": "None",
             "Empowered": "false",
             "Disengagement": "false",
@@ -94,10 +92,7 @@
             "TargetType": "None"
           },
           "AttackTargetFilter": {
-            "KeywordsIDs": [
-              "cb6304a6-ab12-4662-2222-27b974423b7f",
-              "cb6304a6-ab12-4662-0000-27b974423b7f"
-            ],
+            "KeywordsIDs": [],
             "KeywordLogic": "Or",
             "Race": "None",
             "IsKith": "false",
@@ -118,12 +113,11 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
-            "8013ea4c-ab12-4d01-ffff-8a4dc88e8066"
+            "5e0456bf-9e9c-4ae3-a04e-392567edf2f4"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
-          "EventValue": "OnScoringKill",
+          "EventValue": "OnScoringGrazeHitOrCriticalHit",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",
@@ -131,13 +125,6 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
-        },
-        {
-          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166451,
-          "Icon": "gui/icons/abilities/dual.png",
-          "AfflictionTypeID": "5d192433-ab12-42fb-1111-9043dbf5c4e9",
-          "IsThinUI": "false"
         }
       ]
     }

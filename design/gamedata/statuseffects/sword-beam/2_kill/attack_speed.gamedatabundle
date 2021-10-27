@@ -3,7 +3,7 @@
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
       "DebugName": "LifeSteal_SE_AttackSpeed",
-      "ID": "c92d92c0-ab12-4c57-b498-61d95c1bdb17",
+      "ID": "c92d92c0-ab12-2222-3333-61fa5c2bdb17",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
@@ -11,7 +11,7 @@
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1.5,
+          "BaseValue": 1.40,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -19,10 +19,9 @@
             "MultiplyBy": 1,
             "Operator": "Add"
           },
-          "KeywordsIDs": [
-          ],
-          "DurationType": "UseDurationTime",
-          "Duration": 10,
+          "KeywordsIDs": [],
+          "DurationType": "UseDurationTimeUnadjusted",
+          "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "AddDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",

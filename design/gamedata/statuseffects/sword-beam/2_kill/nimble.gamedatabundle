@@ -2,15 +2,22 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Sword_Beam_SE_ApplyOnEvent",
-      "ID": "cb6404b6-ab12-1111-0000-27b974213b7f",
+      "DebugName": "INS_Nimble_Custom",
+      "ID": "c92d92c0-ab12-2222-4444-61fa5c2bdb17",
       "Components": [
         {
+          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
+          "DisplayName": 2203,
+          "Icon": "gui/icons/keywords/dex_pos_2.png",
+          "AfflictionTypeID": "975b7002-8f6a-4ab8-af07-e43077ce612f",
+          "IsThinUI": "false"
+        },
+        {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "ApplyStatusEffectOnEvent",
+          "StatusEffectType": "None",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
-          "UseStatusEffectValueAs": "None",
+          "UseStatusEffectValueAs": "Child",
           "BaseValue": 0,
           "DynamicValue": {
             "Stat": "None",
@@ -20,7 +27,8 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [
-            "cb6404b6-ab12-1111-1111-27b974213b7f"
+            "66f96765-0ec1-4cf1-a49b-a8264df055b7",
+            "bbef3990-aeb1-49ba-b6b4-b86c9059c0c3"
           ],
           "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 12,
@@ -40,16 +48,16 @@
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "OnScoringKill",
-            "TriggerOffEvent": "OnScoringKill",
+            "TriggerOnEvent": "None",
+            "TriggerOffEvent": "None",
             "ValidateWithAttackFilter": "false",
             "ParamValue": 0,
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 1,
+            "MaxTriggerCount": 0,
             "IgnoreMaxTriggerCount": "false",
-            "RemoveEffectAtMax": "true",
+            "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1
           },
           "PowerLevelScaling": {
@@ -115,13 +123,12 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "cb6404b6-ab12-2222-0000-27b974213b7f",
-            "c92d92c0-ab12-0000-4444-61fa5c2bdb17",
-            "c92d92c0-ab12-1111-3333-61fa5c2bdb17"
+            "cfad08af-a6ab-4bc0-877c-c62183d81168",
+            "82f1204e-98cc-4f31-bb69-3ff9b74f4010"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
-          "EventValue": "OnScoringKill",
+          "EventValue": "OnApply",
           "ClassValueID": "00000000-0000-0000-0000-000000000000",
           "WeaponTypeValue": "None",
           "AttackHitType": "None",
@@ -129,13 +136,6 @@
           "AudioEventListID": "00000000-0000-0000-0000-000000000000",
           "BedRestDaysMinimum": 0,
           "BedRestDaysMaximum": 0
-        },
-        {
-          "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166456,
-          "Icon": "gui/icons/abilities/kill.png",
-          "AfflictionTypeID": "cb6404b6-ab12-1111-2222-27b974213b7f",
-          "IsThinUI": "false"
         }
       ]
     }

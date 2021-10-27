@@ -116,7 +116,8 @@
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
             "cb6404b6-ab12-1111-0000-27b974213b7f",
-            "2b85f391-68b1-4bfc-a284-a65e5444ca75"
+            "c92d92c0-ab12-0000-4444-61fa5c2bdb17",
+            "c92d92c0-ab12-0000-3333-61fa5c2bdb17"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",

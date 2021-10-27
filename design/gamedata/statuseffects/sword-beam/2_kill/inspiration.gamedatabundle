@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
-          "StatusEffectType": "",
+          "StatusEffectType": "ApplyStatusEffectOnEvent",
           "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
@@ -40,8 +40,8 @@
             }
           },
           "TriggerAdjustment": {
-            "TriggerOnEvent": "None",
-            "TriggerOffEvent": "None",
+            "TriggerOnEvent": "OnScoringKill",
+            "TriggerOffEvent": "OnScoringKill",
             "ValidateWithAttackFilter": "false",
             "ParamValue": 0,
             "ValueAdjustment": 0,
@@ -115,7 +115,9 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "29be9fa1-4d70-4ae9-806f-b779c904d06e"
+            "cb6404b6-ab12-3333-0000-27b974213b7f",
+            "c92d92c0-ab12-0000-4444-61fa5c2bdb17",
+            "c92d92c0-ab12-2222-3333-61fa5c2bdb17"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",

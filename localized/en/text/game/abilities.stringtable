@@ -63,7 +63,7 @@ Improve action speed by 33%, Gain 15% Weapon/Spell life drain on targets with an
     </Entry>
     <Entry>
       <ID>431166448</ID>
-      <DefaultText>Flash Bomb</DefaultText>
+      <DefaultText>Decoy</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -96,12 +96,19 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
     </Entry>
     <Entry>
       <ID>431166453</ID>
-      <DefaultText>Sword Beam</DefaultText>
+      <DefaultText>Wind Sword</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166454</ID>
-      <DefaultText>Like in Zelda...</DefaultText>
+      <DefaultText>Lunch a series of projectiles in random directions around the caster for a short duration.
+  Foes hit with a projectile are pushed 5m away from caster.
+
+  Gain more powerful buffs each time you score a kill before this effect expires.
+  Scoring a kill resets the duration of this effect to 12 seconds.
+
+  This effect can be upgraded 3 times, after which the effect will expire.
+  </DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -117,6 +124,11 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
     <Entry>
       <ID>431166457</ID>
       <DefaultText>Score a third kill</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166458</ID>
+      <DefaultText>Drenched in Blood</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

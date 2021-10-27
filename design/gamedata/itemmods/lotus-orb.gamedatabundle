@@ -1,0 +1,29 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
+      "DebugName": "Mirror_Soul_Custom",
+      "ID": "42d9d2bf-ab12-48ae-1111-a9b94b31fdc1",
+      "Components": [
+        {
+          "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
+          "DisplayName": 421166441,
+          "HideFromUI": "false",
+          "EnchantCategory": "None",
+          "Cost": 1,
+          "CursesItem": "false",
+          "DurabilityDamage": 0,
+          "StatusEffectsOnEquipIDs": [],
+          "StatusEffectsOnLaunchIDs": [],
+          "StatusEffectsOnAttackIDs": [],
+          "AbilityModsOnEquipIDs": [],
+          "OnEquipVisualEffects": [],
+          "DamageProcs": [],
+          "AbilitiesOnEquipIDs": [
+            "bbbede18-ab12-4fdc-ae00-6bf9d1c986aa"
+          ]
+        }
+      ]
+    }
+  ]
+}

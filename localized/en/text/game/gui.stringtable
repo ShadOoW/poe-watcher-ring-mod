@@ -24,17 +24,22 @@
     </Entry>
     <Entry>
       <ID>451166444</ID>
-      <DefaultText>Kill 3 foes (0 / 3)</DefaultText>
+      <DefaultText>First Kill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>451166445</ID>
-      <DefaultText>Kill 3 foes (1 / 3)</DefaultText>
+      <DefaultText>Second Kill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>451166446</ID>
-      <DefaultText>Kill 3 foes (2 / 3)</DefaultText>
+      <DefaultText>Third Kill</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166447</ID>
+      <DefaultText>Drenched in Blood</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

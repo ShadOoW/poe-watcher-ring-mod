@@ -3,7 +3,7 @@
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
       "DebugName": "Sword_Beam_SE_ApplyOnEvent",
-      "ID": "cb6404b6-ab12-1111-0000-27b974213b7f",
+      "ID": "cb6404b6-ab12-3333-0000-27b974213b7f",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
@@ -20,7 +20,7 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [
-            "cb6404b6-ab12-1111-1111-27b974213b7f"
+            "cb6404b6-ab12-3333-1111-27b974213b7f"
           ],
           "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 12,
@@ -115,9 +115,10 @@
           "ItemValueID": "00000000-0000-0000-0000-000000000000",
           "AfflictionTypeValueID": "00000000-0000-0000-0000-000000000000",
           "StatusEffectsValueIDs": [
-            "cb6404b6-ab12-2222-0000-27b974213b7f",
             "c92d92c0-ab12-0000-4444-61fa5c2bdb17",
-            "c92d92c0-ab12-1111-3333-61fa5c2bdb17"
+            "c92d92c0-ab12-3333-5555-61fa5c2bdb17",
+            "c92d92c0-ab12-3333-6666-61fa5c2bdb17",
+            "c92d92c0-ab12-3333-3333-61fa5c2bdb17"
           ],
           "AttackValueID": "00000000-0000-0000-0000-000000000000",
           "AttackOverrideValue": "None",
@@ -132,9 +133,9 @@
         },
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166456,
+          "DisplayName": 431166458,
           "Icon": "gui/icons/abilities/kill.png",
-          "AfflictionTypeID": "cb6404b6-ab12-1111-2222-27b974213b7f",
+          "AfflictionTypeID": "cb6404b6-ab12-3333-2222-27b974213b7f",
           "IsThinUI": "false"
         }
       ]

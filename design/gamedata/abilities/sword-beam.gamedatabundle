@@ -2,24 +2,28 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "LifeSteal_Custom",
-      "ID": "67809d51-ab12-4282-b97f-0721985f3c9e",
+      "DebugName": "Sword_Beam_2",
+      "ID": "fbf5f778-ab12-4fd3-8213-2784bba0f145",
       "Components": [
         {
           "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
           "KeywordsIDs": [
+            "cb6404b6-ab12-0000-1111-27b974213b7f",
+            "cb6404b6-ab12-1111-1111-27b974213b7f",
+            "cb6404b6-ab12-2222-1111-27b974213b7f",
+            "cb6404b6-ab12-3333-1111-27b974213b7f"
           ],
-          "DisplayName": 431166444,
-          "Description": 431166445,
+          "DisplayName": 431166453,
+          "Description": 431166454,
           "DescriptionTactical": -1,
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
-          "Vocalization": "BarbarianShout",
-          "Icon": "gui/icons/abilities/madness.png",
-          "UsageType": "PerEncounter",
-          "UsageValue": 2,
+          "Vocalization": "AbilityCast",
+          "Icon": "gui/icons/abilities/sword-beam.png",
+          "UsageType": "None",
+          "UsageValue": 0,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
-          "AbilityLevel": 4,
+          "AbilityLevel": 0,
           "IsPassive": "false",
           "StackingRuleOverride": "Default",
           "TriggerOnHit": "false",
@@ -40,26 +44,23 @@
           "ActivationPrerequisites": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-              ]
+              "Components": []
             }
           },
           "ApplicationPrerequisites": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-              ]
+              "Components": []
             }
           },
           "DeactivationPrerequisites": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-              ]
+              "Components": []
             }
           },
           "PowerLevelScaling": {
-            "ScalingType": "Default",
+            "ScalingType": "Never",
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
@@ -72,33 +73,22 @@
           },
           "StatusEffectKeywordsIDs": [],
           "StatusEffectsIDs": [
-            "c92d92c0-ab12-4c57-b498-61d95c1bdb17",
-            "8ba90c2c-ab12-403b-9949-d2a9e039a21a",
-            "7de24929-ab12-4be1-aa3f-2ce80ddec2b8"
+            "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
+            "cb6404b6-ab12-0000-0000-27b974213b7f",
+            "c92d92c0-ab12-0000-4444-61fa5c2bdb17"
           ],
           "RandomizeStatusEffect": "false",
-          "VisualEffects": [
-            {
-              "VisualEffect": "prefabs/effects/abilities/fighter/fx_guardian_angel.prefab",
-              "AttachPoint": "Root",
-              "AttachObject": "Caster",
-              "AttachMode": "Position",
-              "MeshType": "None",
-              "Event": "OnActivate"
-            }
-          ],
+          "VisualEffects": [],
           "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-          "AttackID": "4edbc4af-ab12-4b5f-b6bb-b6df207ce990",
+          "AttackID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
           "AITargetingConditional": {
             "Conditional": {
               "Operator": 0,
-              "Components": [
-              ]
+              "Components": []
             },
-            "Scripts": [
-            ]
+            "Scripts": []
           },
-          "AudioEventListID": "00000000-0000-0000-0000-000000000000",
+          "AudioEventListID": "ac93d371-f62d-40c7-9578-472df0061dbb",
           "GrantedViaScript": "false"
         }
       ]
