@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-      "DebugName": "Mirror_Soul_Custom",
+      "DebugName": "Lotus_Orb_ItemMod",
       "ID": "42d9d2bf-ab12-48ae-1111-a9b94b31fdc1",
       "Components": [
         {

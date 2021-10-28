@@ -22,21 +22,6 @@
             "Conditional": {
               "Operator": 0,
               "Components": [
-                {
-                  "$type": "OEIFormats.FlowCharts.ConditionalCall, OEIFormats",
-                  "Data": {
-                    "FullName": "Void IsTargetAfflictedBy(Guid)",
-                    "Parameters": [
-                      "c9b3809d-ab12-4133-3333-40f340e03c95"
-                    ],
-                    "Flags": "",
-                    "UnrealCall": "",
-                    "FunctionHash": 934923456,
-                    "ParameterHash": 680785739
-                  },
-                  "Not": true,
-                  "Operator": 0
-                }
               ]
             }
           },

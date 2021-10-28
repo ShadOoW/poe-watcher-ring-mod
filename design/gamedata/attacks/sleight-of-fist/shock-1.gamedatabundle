@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack1",
+      "DebugName": "SOF_Shock_Attack_1",
       "ID": "7899efcc-ab12-4b59-0000-06b334a0ec3e",
       "Components": [
         {

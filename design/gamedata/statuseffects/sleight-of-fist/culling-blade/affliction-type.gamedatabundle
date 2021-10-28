@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionTypeGameData, Assembly-CSharp",
-      "DebugName": "AFT_Culling_Thunder",
+      "DebugName": "AFT_Culling_Blade",
       "ID": "5d192433-ab12-42fb-0000-9043dbf5c4e9",
       "Components": [
         {

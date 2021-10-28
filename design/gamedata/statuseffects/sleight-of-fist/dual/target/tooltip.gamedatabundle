@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Dual_Inspiration_Tooltip",
+      "DebugName": "Dual_RivalInspiration_Tooltip",
       "ID": "8013ea4c-ab12-c2d1-ffff-8a4dc88e8066",
       "Components": [
         {

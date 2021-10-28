@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "Soul_Mirror_Custom",
+      "DebugName": "Lotus_Orb_Ability",
       "ID": "bbbede18-ab12-4fdc-ae00-6bf9d1c986aa",
       "Components": [
         {

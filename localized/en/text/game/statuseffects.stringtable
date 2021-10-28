@@ -24,7 +24,7 @@
     </Entry>
     <Entry>
       <ID>441166444</ID>
-      <DefaultText>A bunch of effects</DefaultText>
+      <DefaultText>{0:value:percent} Action Speed, {0:value:percentbonus} Action Speed, {1:value:percent} Action Speed, {1:value:percentbonus} Action Speed</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>

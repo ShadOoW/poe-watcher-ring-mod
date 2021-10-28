@@ -2,13 +2,13 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Brilliant_Inspiration_Custom",
+      "DebugName": "Brilliant_Inspiration_Dual_Protagonist",
       "ID": "48b2c00f-ab12-4b8a-0000-d29ef58e0568",
       "Components": [
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "StatusEffectType": "None",
-          "OverrideDescriptionString": -1,
+          "OverrideDescriptionString": 441166448,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "Child",
           "BaseValue": 0,
@@ -54,12 +54,16 @@
             "ChanceToTrigger": 1
           },
           "PowerLevelScaling": {
-            "UseCharacterLevel": "false",
+            "ScalingType": "Default",
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
-            "ValueAdjustment": 0,
-            "DurationAdjustment": 0
+            "DamageAdjustment": 0,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
           },
           "IsHostile": "false",
           "ClearOnCombatEnd": "false",

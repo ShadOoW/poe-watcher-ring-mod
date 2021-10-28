@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
-      "DebugName": "Status_Effect_Keyword_Culling_Thunder",
+      "DebugName": "Status_Effect_Keyword_Culling_Blade",
       "ID": "cb6304a6-ab12-4662-0000-27b974423b7f",
       "Components": [
         {

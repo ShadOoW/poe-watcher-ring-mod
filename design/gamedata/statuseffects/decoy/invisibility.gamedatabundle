@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Invisible_While_Casting_SE_Invisible",
+      "DebugName": "Decoy_SE_Invisible",
       "ID": "c4d3d7c8-ab12-4f75-bfea-0670e6785959",
       "Components": [
         {
@@ -23,7 +23,7 @@
             "fe80a668-dcb3-4cea-ae2e-70d47dc91348"
           ],
           "DurationType": "UseDurationTimeUnadjusted",
-          "Duration": 2,
+          "Duration": 3,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "RemoveExistingIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",

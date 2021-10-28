@@ -2,15 +2,13 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "Sword_Beam_2",
+      "DebugName": "Sword_Beam_Ability",
       "ID": "fbf5f778-ab12-4fd3-8213-2784bba0f145",
       "Components": [
         {
           "$type": "Game.GameData.GenericAbilityComponent, Assembly-CSharp",
           "KeywordsIDs": [
             "cb6404b6-ab12-0000-1111-27b974213b7f",
-            "cb6404b6-ab12-1111-1111-27b974213b7f",
-            "cb6404b6-ab12-2222-1111-27b974213b7f",
             "cb6404b6-ab12-3333-1111-27b974213b7f"
           ],
           "DisplayName": 431166453,
@@ -75,7 +73,7 @@
           "StatusEffectsIDs": [
             "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
             "cb6404b6-ab12-0000-0000-27b974213b7f",
-            "c92d92c0-ab12-0000-4444-61fa5c2bdb17"
+            "c92d92c0-ab12-2222-4444-61fa5c2bdb17"
           ],
           "RandomizeStatusEffect": "false",
           "VisualEffects": [],

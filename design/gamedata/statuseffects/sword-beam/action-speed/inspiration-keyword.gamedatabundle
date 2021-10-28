@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Status_Effect_Keyword_Action_Speed",
+      "ID": "ac2104b6-ab12-a21b-1111-27bc23113b7f",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 451166448,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "gui/icons/abilities/kill.png",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Dual_Inspiration_Tooltip",
+      "DebugName": "Dual_Protagonist_Inspiration_Tooltip",
       "ID": "8013ea4c-ab12-4d01-ffff-8a4dc88e8066",
       "Components": [
         {
@@ -20,7 +20,7 @@
             "Operator": "Add"
           },
           "KeywordsIDs": [],
-          "DurationType": "UseDurationTimeUnadjusted",
+          "DurationType": "UseDurationTime",
           "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
@@ -51,12 +51,16 @@
             "ChanceToTrigger": 1
           },
           "PowerLevelScaling": {
-            "UseCharacterLevel": "false",
+            "ScalingType": "Default",
             "BaseLevel": 0,
             "LevelIncrement": 1,
             "MaxLevel": 0,
-            "ValueAdjustment": 0,
-            "DurationAdjustment": 0
+            "DamageAdjustment": 0,
+            "DurationAdjustment": 1,
+            "BounceCountAdjustment": 0,
+            "ProjectileCountAdjustment": 0,
+            "AccuracyAdjustment": 0,
+            "PenetrationAdjustment": 0
           },
           "IsHostile": "true",
           "ClearOnCombatEnd": "false",

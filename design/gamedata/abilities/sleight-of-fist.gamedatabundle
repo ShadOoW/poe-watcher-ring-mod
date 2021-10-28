@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "Sleight_Of_Fist_Custom",
+      "DebugName": "SOF_Ability",
       "ID": "0d242b39-ab12-4baa-b5e9-f6b77455c177",
       "Components": [
         {

@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Dual_On_Win_Enemy_SE_ApplyOnEvent",
+      "DebugName": "Dual_Rival_SE_ApplyOnEvent",
       "ID": "c9b3809d-ab12-4133-3333-40f340e03c95",
       "Components": [
         {

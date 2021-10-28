@@ -3,50 +3,19 @@
   <Name>game\abilities</Name>
   <Entries>
     <Entry>
-      <ID>431166440</ID>
-      <DefaultText>Blood Sacrifice</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>431166441</ID>
-      <DefaultText>At the cost of health, returns class resources.
-
-
-Monk: Recover 3 Mortification
-Barbarian: Recover 3 Rage
-Monk/Barbarian/Paladin/Fighter/Ranger/Rogue: Recover 3 resources.
-Wizard/Priest/Druid: Recover 1 or 2 spells (depends on spell level recovered)
-Chanter: Recover 4 Phrases
-Cipher: Recover 60 Focus
-[Works better on MultiClass characters.]</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
       <ID>431166442</ID>
       <DefaultText>Lotus Orb</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166443</ID>
-      <DefaultText>What is best in life?
-To crush your enemies and see them die with their own spells and bullets.
+      <DefaultText>For a short duration, conjure a shield that returns all ranged attacks that single target you and miss.
 
-For a short duration, conjure a shield that returns all ranged attacks that single target you and miss you. The sheer awesomeness of the shield gives you the Resolute inspiration for the duration.
+Gain 40% Spell Resistance.
+Gain Steadfast inspiration (Lingers for a short duration).
 
-[Duration will extend if reused before the previous instance has expired.]
+[Duration will be added if effect is already applied.]
       </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>431166444</ID>
-      <DefaultText>Mask of Madness</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>431166445</ID>
-      <DefaultText>
-
-Improve action speed by 33%, Gain 15% Weapon/Spell life drain on targets with an affliction and disrupt magic use on Hit.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -56,9 +25,16 @@ Improve action speed by 33%, Gain 15% Weapon/Spell life drain on targets with an
     </Entry>
     <Entry>
       <ID>431166447</ID>
-      <DefaultText>Teleport to the target location and on hit:
-- Deals best of shock/pierce damage, the damage will be repeated 2 more times in a 3 seconds interval on the target.
-- Create 2 long traveling shock waves, in front and behind you, enemies touched by it will be pushed and terrified for a short duration.</DefaultText>
+      <DefaultText>Designate a Dual (Rival) and knock back and terrify all other enemies in an AOE around the Rival for a short duration (Rival is immune to the AOE Effects).
+
+- For 12 seconds:
+    - deal best of Shock / Crush damage to the Dual (Rival) every 2 seconds.
+    - Apply Culling Blade Affliction, Insta killing Rival if under 25% of health.
+
+- On Winning the dual; gain Brilliant Inspiration.
+- On Rival survives the dual; player takes half of the damage dealt by this ability.
+
+- On Impact, Push all enemies in a big AOE away from your Rival and apply terrify affliction (excluding the Rival) for a short duration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -68,15 +44,7 @@ Improve action speed by 33%, Gain 15% Weapon/Spell life drain on targets with an
     </Entry>
     <Entry>
       <ID>431166449</ID>
-      <DefaultText>Even with your reputation as a legendary weapons master, you didn't get to this level without your fair use of cheap tricks.
-
-Throws a flash bomb at your enemies, blinding them and teleporting you to the location of the detonation, the flash is so strong that it makes you invisible to all enemies for a short duration.
-
-[Perception Affliction will upgrade to blind on critc and downgrade to distracted on graze]
-[Perception Affliction will not affect the user even if caught in the area of effect]
-[Perception Affliction and Invisibility duration is only scaled by your Intellect Attribute]
-[Perception Affliction and Invisibility duration is not scaled by user's level or user's explosive skill level]
-      </DefaultText>
+      <DefaultText>Teleport player and gain invisibility for a short duration, summon a copy of self in the initial position of the player, after few seconds; summon expires and is replaced by a blackhole that pulls enemies to it.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -96,39 +64,47 @@ Throws a flash bomb at your enemies, blinding them and teleporting you to the lo
     </Entry>
     <Entry>
       <ID>431166453</ID>
-      <DefaultText>Wind Sword</DefaultText>
+      <DefaultText>Wind Swords</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166454</ID>
-      <DefaultText>Lunch a series of projectiles in random directions around the caster for a short duration.
-  Foes hit with a projectile are pushed 5m away from caster.
+      <DefaultText>Lunch a series of projectiles in random directions around the caster for a short duration. Foes hit with a projectile are pushed 5m away from caster.
 
-  Gain more powerful buffs each time you score a kill before this effect expires.
-  Scoring a kill resets the duration of this effect to 12 seconds.
+Gain more powerful buffs each time you score a kill before this effect expires.
+Scoring a kill resets the duration of this effect to 12 seconds.
 
-  This effect can be upgraded 3 times, after which the effect will expire.
-  </DefaultText>
+This effect can be upgraded 3 times, after which the effect will expire after 12 seconds.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166455</ID>
-      <DefaultText>Score a kill</DefaultText>
+      <DefaultText>Blood Thirst (1st kill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166456</ID>
-      <DefaultText>Score a second kill</DefaultText>
+      <DefaultText>Blood Thirst (2end kill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166457</ID>
-      <DefaultText>Score a third kill</DefaultText>
+      <DefaultText>Blood Thirst (3rd kill)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
       <ID>431166458</ID>
-      <DefaultText>Drenched in Blood</DefaultText>
+      <DefaultText>Blood Bath (max kills)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166459</ID>
+      <DefaultText>+10% Action Speed (Stackable)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>431166460</ID>
+      <DefaultText>Mage Slayer</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

@@ -1,0 +1,20 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.KeywordGameData, Assembly-CSharp",
+      "DebugName": "Status_Effect_Keyword_Dual_Protagonist",
+      "ID": "cb6304a6-ab12-4662-1111-27b974423b7f",
+      "Components": [
+        {
+          "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
+          "GuiDisplayString": 451166442,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
+          "OverridePluralEffect": -1,
+          "Icon": "gui/icons/abilities/dual.png",
+          "TintableIcon": ""
+        }
+      ]
+    }
+  ]
+}

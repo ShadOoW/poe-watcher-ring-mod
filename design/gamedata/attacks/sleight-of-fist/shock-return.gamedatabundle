@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack_On_Dual_Lose",
+      "DebugName": "SOF_Shock_Attack_Return",
       "ID": "7899efcc-ab12-4b59-9999-06b334a0ec3e",
       "Components": [
         {

@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "AFF_Terrified_Custom",
+      "DebugName": "AFF_Terrified_SOF",
       "ID": "6aa2ba0a-ab12-4cf3-9b5c-0f919bcd213d",
       "Components": [
         {

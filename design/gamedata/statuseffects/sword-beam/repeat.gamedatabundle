@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Nalpazca_Drugs_SE_ApplyOnEvent",
+      "DebugName": "Sword_Beam_Repeat_SE_ApplyOnEvent",
       "ID": "b3a47cc3-ab12-47d9-bbf4-24189dc83319",
       "Components": [
         {

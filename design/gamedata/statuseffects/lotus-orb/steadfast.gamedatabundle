@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AfflictionGameData, Assembly-CSharp",
-      "DebugName": "Inspiration_SE_Steadfast",
+      "DebugName": "Lotus_Orb_Inspiration_SE_Steadfast",
       "ID": "25459157-ab12-4e27-b87f-9ddcf6a36159",
       "Components": [
         {
@@ -33,7 +33,7 @@
           "DurationType": "UseDurationTime",
           "Duration": 4,
           "MaxStackQuantity": 0,
-          "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
+          "ApplicationBehavior": "AddDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
           "IntervalRateID": "00000000-0000-0000-0000-000000000000",
           "StackedChildrenApplyEffects": "false",

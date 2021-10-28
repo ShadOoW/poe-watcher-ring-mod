@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackMeleeGameData, Assembly-CSharp",
-      "DebugName": "Soul_Mirror_Self_Custom",
+      "DebugName": "Lotus_Orb_AttackMelee",
       "ID": "3bbab0f8-ab12-4ede-4444-20d8c2426fe1",
       "Components": [
         {

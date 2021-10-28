@@ -1,0 +1,21 @@
+{
+  "GameDataObjects": [
+    {
+      "$type": "Game.GameData.AfflictionTypeGameData, Assembly-CSharp",
+      "DebugName": "AFT_Action_Speed",
+      "ID": "ac2104b6-ab12-a21b-2222-27bc23113b7f",
+      "Components": [
+        {
+          "$type": "Game.GameData.AfflictionTypeComponent, Assembly-CSharp",
+          "DisplayName": 461166443,
+          "Icon": "gui/icons/abilities/kill.png",
+          "AssociatedAttributeID": "00000000-0000-0000-0000-000000000000",
+          "HardCountersTypeID": "00000000-0000-0000-0000-000000000000",
+          "AfflictionsIDs": [
+            "ac2104b6-ab12-a21b-0000-27bc23113b7f"
+          ]
+        }
+      ]
+    }
+  ]
+}

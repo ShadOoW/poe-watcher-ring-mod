@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-      "DebugName": "Weapon_Styles_Custom",
+      "DebugName": "Weapon_Styles_ItemMod",
       "ID": "f80c482c-ab12-45da-6666-ce8d4e5adc44",
       "Components": [
         {
@@ -30,7 +30,7 @@
     },
     {
       "$type": "Game.GameData.ItemModGameData, Assembly-CSharp",
-      "DebugName": "Weapons_Custom",
+      "DebugName": "Weapons_ItemMod",
       "ID": "f80c482c-ab12-45da-7777-ce8d4e5adc44",
       "Components": [
         {

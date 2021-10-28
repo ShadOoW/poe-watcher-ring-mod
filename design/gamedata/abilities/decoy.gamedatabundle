@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.GenericAbilityGameData, Assembly-CSharp",
-      "DebugName": "Bomb_Flash_Bomb_Ability",
+      "DebugName": "Decoy_Ability",
       "ID": "6906afe1-ab12-4f2c-93f0-2fa9c26f6f43",
       "Components": [
         {
@@ -72,7 +72,7 @@
             "260d4374-38d0-481d-a618-77448923bb75",
             "0d23daae-f290-40e0-9aa0-7521c426986c",
             "820e27a0-1c86-434b-b3e3-0f627870e898",
-            "0533368a-2d89-439f-a469-f8c8f800f9e6"
+            "0533368a-ab12-439f-a469-f8c8f800f9e6"
           ],
           "RandomizeStatusEffect": "false",
           "VisualEffects": [],

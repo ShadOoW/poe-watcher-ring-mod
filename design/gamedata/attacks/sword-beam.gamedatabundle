@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackAOEGameData, Assembly-CSharp",
-      "DebugName": "DeathGuard_DevourEssence_AttackPulseAoE",
+      "DebugName": "Sword_Beam_AttackPulseAoE",
       "ID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
       "Components": [
         {

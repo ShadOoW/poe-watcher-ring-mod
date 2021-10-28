@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.TeleportAttackGameData, Assembly-CSharp",
-      "DebugName": "Sleight_Of_Fist_PathAttack_Custom",
+      "DebugName": "SOF_TeleportAttack",
       "ID": "972a94ec-ab12-4687-96db-111d799e2cf7",
       "Components": [
         {
@@ -48,7 +48,8 @@
             "9b3b1abc-ab12-4276-3333-1ca1e12d9bef",
             "9b3b1abc-ab12-4276-4444-1ca1e12d9bef",
             "c9b3809d-ab12-4133-3333-40f340e03c95",
-            "5e0456bf-ab12-12cf-a04e-392567edf2f4"
+            "5e0456bf-ab12-12cf-a04e-392567edf2f4",
+            "f2fd0ef6-ab12-415e-888e-4638f1f080c9"
           ],
           "RandomizeStatusEffect": "false",
           "CanGraze": "false",

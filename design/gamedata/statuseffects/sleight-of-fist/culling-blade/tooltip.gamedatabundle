@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Culling_Thunder_Tooltip",
+      "DebugName": "Culling_Blade_Tooltip",
       "ID": "8013ea4c-ab12-4d01-0000-8a4dc88e8066",
       "Components": [
         {

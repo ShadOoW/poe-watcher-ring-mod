@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.StatusEffectGameData, Assembly-CSharp",
-      "DebugName": "Shock_Attack2_SE_AttackOnEvent",
+      "DebugName": "Shock_Attack_2_SE_AttackOnEvent",
       "ID": "9b3b1abc-ab12-4276-1111-1ca1e12d9bef",
       "Components": [
         {

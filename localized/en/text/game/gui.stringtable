@@ -24,7 +24,7 @@
     </Entry>
     <Entry>
       <ID>451166444</ID>
-      <DefaultText>First Kill</DefaultText>
+      <DefaultText>Blood Thirst</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
@@ -39,7 +39,17 @@
     </Entry>
     <Entry>
       <ID>451166447</ID>
-      <DefaultText>Drenched in Blood</DefaultText>
+      <DefaultText>Blood Bath</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166448</ID>
+      <DefaultText>+10% Action Speed (Stackable)</DefaultText>
+      <FemaleText />
+    </Entry>
+    <Entry>
+      <ID>451166449</ID>
+      <DefaultText>Mage Slayer</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

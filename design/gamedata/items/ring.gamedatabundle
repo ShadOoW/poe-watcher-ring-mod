@@ -2,7 +2,7 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.EquippableGameData, Assembly-CSharp",
-      "DebugName": "Ring_U_Great_Fairies_Ring",
+      "DebugName": "Ring_U_Watcher_Ring",
       "ID": "ec283306-ab12-462a-cc39-fc04148fc1c9",
       "Components": [
         {
