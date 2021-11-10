@@ -137,7 +137,7 @@
         },
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166458,
+          "DisplayName": 963633644,
           "Icon": "gui/icons/abilities/blood-bath.png",
           "AfflictionTypeID": "cb6404b6-ab12-0000-2222-27b974213b7f",
           "IsThinUI": "false"

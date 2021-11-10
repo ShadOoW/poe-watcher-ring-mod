@@ -8,7 +8,7 @@
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "StatusEffectType": "None",
-          "OverrideDescriptionString": 441166448,
+          "OverrideDescriptionString": -1,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "Child",
           "BaseValue": 0,
@@ -23,7 +23,7 @@
             "ae8eaf9c-6fdc-4c63-9aac-8ee874082c0f",
             "10599782-9812-451d-8e24-693c06bb4062"
           ],
-          "DurationType": "UseDurationTime",
+          "DurationType": "UseDurationTimeUnadjusted",
           "Duration": 12,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "AddDurationIfAlreadyApplied",
@@ -48,7 +48,7 @@
             "ValueAdjustment": 0,
             "DurationAdjustment": 0,
             "ResetTriggerOnEffectTimeout": "false",
-            "MaxTriggerCount": 0,
+            "MaxTriggerCount": 1,
             "IgnoreMaxTriggerCount": "false",
             "RemoveEffectAtMax": "false",
             "ChanceToTrigger": 1

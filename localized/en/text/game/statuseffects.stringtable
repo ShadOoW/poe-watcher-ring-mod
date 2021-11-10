@@ -3,58 +3,18 @@
   <Name>game\statuseffects</Name>
   <Entries>
     <Entry>
-      <ID>441166440</ID>
-      <DefaultText>15% of Weapon/Spell damage life-steal</DefaultText>
+      <ID>563633630</ID>
+      <DefaultText>When Rival's Health is below 25% (Bloodied), Rival is Destroyed.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>441166441</ID>
-      <DefaultText>Might, Constitution, Resolve, Perception, Dexterity and Intellect Inspirations applied to the wielder are increased by 1 Tier.</DefaultText>
+      <ID>563633631</ID>
+      <DefaultText>On Killing your Rival, gain Brilliant inspiration.</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>441166442</ID>
-      <DefaultText></DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166443</ID>
-      <DefaultText>{0:value:percent} of Spell Damage Dealt against afflicted targets is returned as Healing </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166444</ID>
-      <DefaultText>{0:value:percent} Action Speed, {0:value:percentbonus} Action Speed, {1:value:percent} Action Speed, {1:value:percentbonus} Action Speed</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166445</ID>
-      <DefaultText>{0:value:percent} of Damage Dealt is returned as Healing </DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166446</ID>
-      <DefaultText>Culling Blade (Destroy under 25% Health)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166447</ID>
-      <DefaultText>When Rival's Health goes below 25% (Bloodied), Rival is Destroyed.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166448</ID>
-      <DefaultText>On Killing your Rival, gain Brilliant inspiration</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166449</ID>
-      <DefaultText>Rival will return 50% of damage dealt if they survive the dual.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>441166450</ID>
-      <DefaultText>For a short duration, throw sword beams around you randomly.</DefaultText>
+      <ID>563633632</ID>
+      <DefaultText>If rival survives the dual: Player is hit by a shock/crush attack (50% of total damage dealt by this ability).</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

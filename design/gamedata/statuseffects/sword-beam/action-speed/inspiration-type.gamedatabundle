@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.AfflictionTypeComponent, Assembly-CSharp",
-          "DisplayName": 461166443,
+          "DisplayName": -1,
           "Icon": "gui/icons/abilities/kill.png",
           "AssociatedAttributeID": "00000000-0000-0000-0000-000000000000",
           "HardCountersTypeID": "00000000-0000-0000-0000-000000000000",

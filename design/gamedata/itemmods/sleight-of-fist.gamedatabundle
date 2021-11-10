@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.ItemModComponent, Assembly-CSharp",
-          "DisplayName": 421166442,
+          "DisplayName": 363633631,
           "HideFromUI": "false",
           "EnchantCategory": "None",
           "Cost": 1,

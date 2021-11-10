@@ -18,7 +18,7 @@
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 2,
+          "ImpactDelay": 2.5,
           "ForcedTarget": "None",
           "AffectedTargetType": "All",
           "AffectedTargetConditional": {
@@ -36,8 +36,8 @@
           "DamageData": {
             "DamageType": "Shock",
             "AlternateDamageType": "Crush",
-            "Minimum": 20,
-            "Maximum": 24,
+            "Minimum": 10,
+            "Maximum": 10,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []

@@ -2,8 +2,8 @@
   "GameDataObjects": [
     {
       "$type": "Game.GameData.AttackRangedGameData, Assembly-CSharp",
-      "DebugName": "SOF_Shock_Attack_3",
-      "ID": "7899efcc-ab12-4b59-2222-06b334a0ec3e",
+      "DebugName": "SOF_Shock_Attack_6",
+      "ID": "7899efcc-ab12-4b59-5555-06b334a0ec3e",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
@@ -18,7 +18,7 @@
           "CastSpeedID": "eacb53e3-6eb5-422a-92ca-99cc883ae4a9",
           "RecoveryTimeID": "9d15e1c1-c6e1-4b25-bc1d-bf3707f6f534",
           "OverrideTacticalActionType": "None",
-          "ImpactDelay": 7.5,
+          "ImpactDelay": 14.9,
           "ForcedTarget": "None",
           "AffectedTargetType": "All",
           "AffectedTargetConditional": {

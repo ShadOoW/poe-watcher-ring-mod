@@ -8,7 +8,7 @@
         {
           "$type": "Game.GameData.StatusEffectComponent, Assembly-CSharp",
           "StatusEffectType": "None",
-          "OverrideDescriptionString": 441166448,
+          "OverrideDescriptionString": 563633631,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
           "BaseValue": 1,
@@ -21,7 +21,7 @@
           },
           "KeywordsIDs": [],
           "DurationType": "UseDurationTime",
-          "Duration": 12,
+          "Duration": 15,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
@@ -62,7 +62,7 @@
             "AccuracyAdjustment": 0,
             "PenetrationAdjustment": 0
           },
-          "IsHostile": "true",
+          "IsHostile": "false",
           "ClearOnCombatEnd": "false",
           "ClearOnRest": "false",
           "ClearOnFoodRest": "false",

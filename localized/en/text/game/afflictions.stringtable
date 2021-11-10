@@ -3,22 +3,22 @@
   <Name>game\afflictions</Name>
   <Entries>
     <Entry>
-      <ID>461166440</ID>
+      <ID>163633630</ID>
       <DefaultText>Culling Blade</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>461166441</ID>
+      <ID>163633631</ID>
       <DefaultText>Dual (Protagonist)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>461166442</ID>
+      <ID>163633632</ID>
       <DefaultText>Dual (Rival)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>461166443</ID>
+      <ID>163633633</ID>
       <DefaultText>My Turn to strike</DefaultText>
       <FemaleText />
     </Entry>

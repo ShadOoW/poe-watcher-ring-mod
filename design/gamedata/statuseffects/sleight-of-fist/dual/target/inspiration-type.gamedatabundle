@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.AfflictionTypeComponent, Assembly-CSharp",
-          "DisplayName": 461166442,
+          "DisplayName": 163633632,
           "Icon": "gui/icons/abilities/sleight-of-fist-ability.png",
           "AssociatedAttributeID": "00000000-0000-0000-0000-000000000000",
           "HardCountersTypeID": "00000000-0000-0000-0000-000000000000",

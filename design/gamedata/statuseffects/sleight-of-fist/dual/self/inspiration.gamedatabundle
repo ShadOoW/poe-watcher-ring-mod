@@ -23,7 +23,7 @@
             "cb6304a6-ab12-4662-1111-27b974423b7f"
           ],
           "DurationType": "UseDurationTimeUnadjusted",
-          "Duration": 12,
+          "Duration": 15,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnStart",
@@ -134,7 +134,7 @@
         },
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166451,
+          "DisplayName": 963633637,
           "Icon": "gui/icons/abilities/dual.png",
           "AfflictionTypeID": "5d192433-ab12-42fb-1111-9043dbf5c4e9",
           "IsThinUI": "false"

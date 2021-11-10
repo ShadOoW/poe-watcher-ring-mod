@@ -11,7 +11,7 @@
           "OverrideDescriptionString": 341,
           "OverrideDescriptionStringTactical": -1,
           "UseStatusEffectValueAs": "None",
-          "BaseValue": 1.10,
+          "BaseValue": 1.15,
           "DynamicValue": {
             "Stat": "None",
             "SkillDataID": "00000000-0000-0000-0000-000000000000",
@@ -140,7 +140,7 @@
         },
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166459,
+          "DisplayName": 963633645,
           "Icon": "gui/icons/abilities/kill.png",
           "AfflictionTypeID": "ac2104b6-ab12-a21b-0000-27bc23113b7f",
           "IsThinUI": "false"

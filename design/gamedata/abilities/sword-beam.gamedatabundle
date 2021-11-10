@@ -11,15 +11,15 @@
             "cb6404b6-ab12-0000-1111-27b974213b7f",
             "cb6404b6-ab12-3333-1111-27b974213b7f"
           ],
-          "DisplayName": 431166453,
-          "Description": 431166454,
+          "DisplayName": 963633639,
+          "Description": 963633640,
           "DescriptionTactical": -1,
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "AbilityCast",
           "Icon": "gui/icons/abilities/sword-beam.png",
-          "UsageType": "None",
-          "UsageValue": 0,
+          "UsageType": "PerEncounter",
+          "UsageValue": 1,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
           "AbilityLevel": 0,
           "IsPassive": "false",
@@ -78,7 +78,7 @@
           "RandomizeStatusEffect": "false",
           "VisualEffects": [],
           "SelfMaterialReplacementID": "00000000-0000-0000-0000-000000000000",
-          "AttackID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
+          "AttackID": "561cd24f-ab12-41b2-c3f1-cecd344568b4",
           "AITargetingConditional": {
             "Conditional": {
               "Operator": 0,

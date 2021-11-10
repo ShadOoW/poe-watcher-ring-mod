@@ -3,17 +3,17 @@
     {
       "$type": "Game.GameData.TeleportAttackGameData, Assembly-CSharp",
       "DebugName": "Decoy_TeleportAttack",
-      "ID": "561cd24f-ab12-41b2-a588-cecd344568b4",
+      "ID": "561cd24f-ab12-41b2-c3f1-cecd344568b4",
       "Components": [
         {
           "$type": "Game.GameData.AttackBaseComponent, Assembly-CSharp",
           "KeywordsIDs": [],
-          "AttackDistance": 8,
+          "AttackDistance": 14,
           "MinAttackDistance": 0,
-          "AttackVariationID": "facde8f0-5e08-4c15-948d-e08e5c940f1f",
+          "AttackVariationID": "5f56a8f2-66a2-4bab-90ae-af919c8116f0",
           "UseParentEquippableHand": "false",
           "CastSpeedID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
-          "RecoveryTimeID": "e4c738a7-4d3f-407f-b035-cc76191fe26b",
+          "RecoveryTimeID": "039ef4b4-eeb3-42d3-9817-a8df05c53515",
           "OverrideTacticalActionType": "None",
           "ImpactDelay": 0,
           "ForcedTarget": "None",
@@ -73,8 +73,8 @@
               "Scale": "false"
             }
           ],
-          "AttackOnImpactID": "7c8281be-ab12-47f7-b1a8-4eb61d5bbf86",
-          "ExtraAttackID": "5bf62efe-ab12-428d-a384-d6b698b4ea4a",
+          "AttackOnImpactID": "00000000-0000-0000-0000-000000000000",
+          "ExtraAttackID": "1a823e06-ab12-428c-0000-96d64ea7a1b9",
           "LaunchBone": "RightWeapon",
           "HitBone": "Chest",
           "OnHitShakeDuration": "None",

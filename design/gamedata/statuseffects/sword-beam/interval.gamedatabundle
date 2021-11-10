@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.IntervalRateComponent, Assembly-CSharp",
-          "Interval": 0.1,
+          "Interval": 0.02,
           "OnlyWhileMoving": "false"
         }
       ]

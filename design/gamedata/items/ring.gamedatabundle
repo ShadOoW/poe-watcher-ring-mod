@@ -7,8 +7,8 @@
       "Components": [
         {
           "$type": "Game.GameData.ItemComponent, Assembly-CSharp",
-          "DisplayName": 411166440,
-          "DescriptionText": 411166441,
+          "DisplayName": 463633630,
+          "DescriptionText": 463633631,
           "DescriptionTextTactical": -1,
           "FilterType": "Clothing",
           "InventoryAudioEventListID": "c607cfb4-6130-4827-87f4-fac4c95a3e02",

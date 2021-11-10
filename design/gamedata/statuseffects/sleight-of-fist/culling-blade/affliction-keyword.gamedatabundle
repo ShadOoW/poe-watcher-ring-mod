@@ -7,9 +7,9 @@
       "Components": [
         {
           "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
-          "GuiDisplayString": 451166440,
-          "AbilitiesDisplayString": 451166441,
-          "Description": 451166441,
+          "GuiDisplayString": 263633630,
+          "AbilitiesDisplayString": -1,
+          "Description": -1,
           "OverridePluralEffect": -1,
           "Icon": "gui/icons/abilities/culling-blade.png",
           "TintableIcon": ""

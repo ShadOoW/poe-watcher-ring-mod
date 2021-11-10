@@ -132,7 +132,7 @@
         },
         {
           "$type": "Game.GameData.AfflictionComponent, Assembly-CSharp",
-          "DisplayName": 431166455,
+          "DisplayName": 963633641,
           "Icon": "gui/icons/abilities/blood-thirst.png",
           "AfflictionTypeID": "cb6404b6-ab12-0000-2222-27b974213b7f",
           "IsThinUI": "false"

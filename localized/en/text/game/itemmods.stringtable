@@ -3,47 +3,32 @@
   <Name>game\itemmods</Name>
   <Entries>
     <Entry>
-      <ID>421166440</ID>
-      <DefaultText>Blood Rite</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>421166441</ID>
+      <ID>363633630</ID>
       <DefaultText>Counterspell</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>421166442</ID>
-      <DefaultText>Santoryu</DefaultText>
+      <ID>363633631</ID>
+      <DefaultText>Sleight Of Fist</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>421166443</ID>
-      <DefaultText>Unholy Spirit</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>421166446</ID>
+      <ID>363633632</ID>
       <DefaultText>Master of all</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>421166447</ID>
+      <ID>363633633</ID>
       <DefaultText>Armed to the teeth</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>421166448</ID>
+      <ID>363633634</ID>
       <DefaultText>Dirty Tricks</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>421166449</ID>
-      <DefaultText>Crowd Control</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>421166450</ID>
+      <ID>363633635</ID>
       <DefaultText>Speed-o'-Sound Sonic</DefaultText>
       <FemaleText />
     </Entry>

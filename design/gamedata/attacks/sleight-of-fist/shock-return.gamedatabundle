@@ -33,8 +33,8 @@
           "DamageData": {
             "DamageType": "Shock",
             "AlternateDamageType": "Crush",
-            "Minimum": 25,
-            "Maximum": 30,
+            "Minimum": 40,
+            "Maximum": 40,
             "TacticalMinimumOverride": 0,
             "TacticalMaximumOverride": 0,
             "DamageProcs": []

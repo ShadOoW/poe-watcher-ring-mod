@@ -10,14 +10,14 @@
           "KeywordsIDs": [
             "6149f072-d79d-4429-8dbd-3f014e8f013c"
           ],
-          "DisplayName": 431166442,
-          "Description": 431166443,
+          "DisplayName": 963633630,
+          "Description": 963633631,
           "DescriptionTactical": -1,
           "UpgradeDescriptions": [],
           "UpgradedFromID": "00000000-0000-0000-0000-000000000000",
           "Vocalization": "GenericSpellCast1",
           "Icon": "gui/icons/abilities/reflect.png",
-          "UsageType": "None",
+          "UsageType": "PerEncounter",
           "UsageValue": 3,
           "AbilityClassID": "00000000-0000-0000-0000-000000000000",
           "AbilityLevel": 1,

@@ -3,53 +3,43 @@
   <Name>game\gui</Name>
   <Entries>
     <Entry>
-      <ID>451166440</ID>
+      <ID>263633630</ID>
       <DefaultText>Culling Blade</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166441</ID>
-      <DefaultText>Target affected by this status will be destroyed if bloodied (under 25% Health), if the target survives the duration, the target is rewarded with an Infinite Robust (+5 Constitution, + 2 Armor Rating, regenerate Health periodically) inspiration.</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>451166442</ID>
+      <ID>263633631</ID>
       <DefaultText>Dual (Protagonist)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166443</ID>
+      <ID>263633632</ID>
       <DefaultText>Dual (Rival)</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166444</ID>
+      <ID>263633633</ID>
       <DefaultText>Blood Thirst</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166445</ID>
+      <ID>263633634</ID>
       <DefaultText>Second Kill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166446</ID>
+      <ID>263633635</ID>
       <DefaultText>Third Kill</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166447</ID>
+      <ID>263633636</ID>
       <DefaultText>Blood Bath</DefaultText>
       <FemaleText />
     </Entry>
     <Entry>
-      <ID>451166448</ID>
+      <ID>263633637</ID>
       <DefaultText>+10% Action Speed (Stackable)</DefaultText>
-      <FemaleText />
-    </Entry>
-    <Entry>
-      <ID>451166449</ID>
-      <DefaultText>Mage Slayer</DefaultText>
       <FemaleText />
     </Entry>
   </Entries>

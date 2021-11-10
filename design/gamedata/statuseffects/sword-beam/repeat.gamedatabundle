@@ -21,7 +21,7 @@
           },
           "KeywordsIDs": [],
           "DurationType": "UseDurationTimeUnadjusted",
-          "Duration": 1.2,
+          "Duration": 0.4,
           "MaxStackQuantity": 0,
           "ApplicationBehavior": "UseLongerDurationIfAlreadyApplied",
           "ApplicationType": "ApplyOnTick",

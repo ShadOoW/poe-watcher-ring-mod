@@ -1,14 +1,14 @@
 {
   "Title": {
-    "en": "Great Fairies Ring"
+    "en": "The Watcher of Caed Nua's Ring"
   },
   "Description": {
-    "en": "Grant Great Fairies Ring"
+    "en": "Gives 4 new Active Abilities to the wearer and few passives to improve Martial Builds."
   },
   "Author": "ShadOoW",
   "ModVersion": "1.0",
   "SupportedGameVersion": {
     "Min": "5.0.0",
-    "Max": "5.0.0"
+    "Max": "69.420"
   }
 }

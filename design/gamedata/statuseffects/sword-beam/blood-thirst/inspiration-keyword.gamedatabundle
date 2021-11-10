@@ -7,7 +7,7 @@
       "Components": [
         {
           "$type": "Game.GameData.KeywordComponent, Assembly-CSharp",
-          "GuiDisplayString": 451166444,
+          "GuiDisplayString": 263633633,
           "AbilitiesDisplayString": -1,
           "Description": -1,
           "OverridePluralEffect": -1,
